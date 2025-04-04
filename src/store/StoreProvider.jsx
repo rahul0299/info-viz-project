@@ -6,10 +6,10 @@ export const StoreProvider = ({ children }) => {
     const [state, setState] = useState(initialState);
 
     useEffect(() => {
-        fetchData()
+        fetchData().then(res => setState(res));
 
         const refreshInterval = setInterval(() => {
-            fetchData();
+            fetchData().then(res => setState(res));
         }, 5 * 60 * 1000);
 
         return () => clearInterval(refreshInterval);

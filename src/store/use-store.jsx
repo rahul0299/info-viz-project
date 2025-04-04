@@ -1,10 +1,12 @@
 import {createContext, useContext} from "react";
 
-export const StoreContext = createContext(initialState);
-
 export const initialState = {
-    data: "test data",
-    refreshData: () => console.log("test refresh data"),
+    volumeTrendData: {
+        "24h": [],
+        "7d": []
+    },
 }
+
+export const StoreContext = createContext(initialState);
 
 export const useStore = () => useContext(StoreContext);
