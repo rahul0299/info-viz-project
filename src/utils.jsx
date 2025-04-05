@@ -1,9 +1,14 @@
 import {format, isAfter, parseISO, subDays, subHours} from "date-fns";
 
+
+
 export const fetchData = async () => {
     console.log("Fetching data ...");
     return {
-        "volumeTrendData": await fetchVolumeTrendData()
+        volumeTrendData: await fetchVolumeTrendData(),
+        orderSolverDelayData: await fetchOrderSolverDelayData(),
+        solverParticipationData: await fetchSolverParticipationData(),
+        tokenPairTreeMapData: await fetchTokenPairTreeMapData(),
     };
 }
 
@@ -21,5 +26,17 @@ export const fetchVolumeTrendData = async () => {
         "7d": res7d
     };
 
+}
+
+export const fetchOrderSolverDelayData = async () => {
+    return await fetch("/out/order_solver_time_diff.json").then(res => res.json());
+}
+
+export const fetchSolverParticipationData = async () => {
+    return await fetch("/out/solver_participation.json").then(res => res.json());
+}
+
+export const fetchTokenPairTreeMapData = async () => {
+    return await fetch("/out/treemap_token_pair_volume.json").then(res => res.json());
 }
 
