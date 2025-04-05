@@ -1,0 +1,3425 @@
+[
+  {
+    "createdTimestamp":"2025-01-03 07:59",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0683
+  },
+  {
+    "createdTimestamp":"2025-01-03 08:01",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9473
+  },
+  {
+    "createdTimestamp":"2025-01-03 12:57",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4066
+  },
+  {
+    "createdTimestamp":"2025-01-03 13:01",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9843
+  },
+  {
+    "createdTimestamp":"2025-01-03 13:05",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.2505
+  },
+  {
+    "createdTimestamp":"2025-01-03 13:20",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.047
+  },
+  {
+    "createdTimestamp":"2025-01-03 14:24",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9698
+  },
+  {
+    "createdTimestamp":"2025-01-03 14:25",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0021
+  },
+  {
+    "createdTimestamp":"2025-01-03 14:53",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9995
+  },
+  {
+    "createdTimestamp":"2025-01-03 14:59",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9912
+  },
+  {
+    "createdTimestamp":"2025-01-03 15:00",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9883
+  },
+  {
+    "createdTimestamp":"2025-01-03 18:29",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":3.0167
+  },
+  {
+    "createdTimestamp":"2025-01-03 18:29",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9408
+  },
+  {
+    "createdTimestamp":"2025-01-03 18:41",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0257
+  },
+  {
+    "createdTimestamp":"2025-01-03 18:56",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8942
+  },
+  {
+    "createdTimestamp":"2025-01-03 19:35",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0051
+  },
+  {
+    "createdTimestamp":"2025-01-03 19:57",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4334
+  },
+  {
+    "createdTimestamp":"2025-01-03 20:06",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9903
+  },
+  {
+    "createdTimestamp":"2025-01-03 22:13",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.1624
+  },
+  {
+    "createdTimestamp":"2025-01-03 22:15",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9198
+  },
+  {
+    "createdTimestamp":"2025-01-03 22:20",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.2223
+  },
+  {
+    "createdTimestamp":"2025-01-03 22:46",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9361
+  },
+  {
+    "createdTimestamp":"2025-01-03 23:00",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9412
+  },
+  {
+    "createdTimestamp":"2025-01-03 23:11",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0
+  },
+  {
+    "createdTimestamp":"2025-01-03 23:37",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8574
+  },
+  {
+    "createdTimestamp":"2025-01-03 23:50",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.2954
+  },
+  {
+    "createdTimestamp":"2025-01-04 00:20",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9702
+  },
+  {
+    "createdTimestamp":"2025-01-04 00:51",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8324
+  },
+  {
+    "createdTimestamp":"2025-01-04 00:57",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0818
+  },
+  {
+    "createdTimestamp":"2025-01-04 01:10",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9524
+  },
+  {
+    "createdTimestamp":"2025-01-04 01:19",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9867
+  },
+  {
+    "createdTimestamp":"2025-01-04 01:20",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0763
+  },
+  {
+    "createdTimestamp":"2025-01-04 01:37",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9693
+  },
+  {
+    "createdTimestamp":"2025-01-04 01:47",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.1383
+  },
+  {
+    "createdTimestamp":"2025-01-04 02:32",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":3.1205
+  },
+  {
+    "createdTimestamp":"2025-01-04 02:39",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0
+  },
+  {
+    "createdTimestamp":"2025-01-04 02:44",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3604
+  },
+  {
+    "createdTimestamp":"2025-01-04 02:58",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9195
+  },
+  {
+    "createdTimestamp":"2025-01-04 03:23",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.5207
+  },
+  {
+    "createdTimestamp":"2025-01-04 03:54",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0715
+  },
+  {
+    "createdTimestamp":"2025-01-04 04:34",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0912
+  },
+  {
+    "createdTimestamp":"2025-01-04 05:19",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.0808
+  },
+  {
+    "createdTimestamp":"2025-01-04 05:21",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0948
+  },
+  {
+    "createdTimestamp":"2025-01-04 06:09",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0177
+  },
+  {
+    "createdTimestamp":"2025-01-04 06:30",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":10.9995
+  },
+  {
+    "createdTimestamp":"2025-01-04 06:36",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9995
+  },
+  {
+    "createdTimestamp":"2025-01-04 06:36",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0057
+  },
+  {
+    "createdTimestamp":"2025-01-04 06:53",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9775
+  },
+  {
+    "createdTimestamp":"2025-01-04 07:39",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4697
+  },
+  {
+    "createdTimestamp":"2025-01-04 07:49",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9961
+  },
+  {
+    "createdTimestamp":"2025-01-04 07:49",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4581
+  },
+  {
+    "createdTimestamp":"2025-01-04 08:38",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.846
+  },
+  {
+    "createdTimestamp":"2025-01-04 08:58",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9955
+  },
+  {
+    "createdTimestamp":"2025-01-04 08:58",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.995
+  },
+  {
+    "createdTimestamp":"2025-01-04 09:14",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.6167
+  },
+  {
+    "createdTimestamp":"2025-01-04 09:20",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4545
+  },
+  {
+    "createdTimestamp":"2025-01-04 09:34",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4985
+  },
+  {
+    "createdTimestamp":"2025-01-04 11:09",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0177
+  },
+  {
+    "createdTimestamp":"2025-01-04 11:43",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.0863
+  },
+  {
+    "createdTimestamp":"2025-01-04 11:46",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.7533
+  },
+  {
+    "createdTimestamp":"2025-01-04 11:48",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9205
+  },
+  {
+    "createdTimestamp":"2025-01-04 12:00",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0904
+  },
+  {
+    "createdTimestamp":"2025-01-04 12:44",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9641
+  },
+  {
+    "createdTimestamp":"2025-01-04 13:24",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8157
+  },
+  {
+    "createdTimestamp":"2025-01-04 14:16",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0021
+  },
+  {
+    "createdTimestamp":"2025-01-04 15:38",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.213
+  },
+  {
+    "createdTimestamp":"2025-01-04 17:31",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9878
+  },
+  {
+    "createdTimestamp":"2025-01-04 17:32",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0126
+  },
+  {
+    "createdTimestamp":"2025-01-04 17:33",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9852
+  },
+  {
+    "createdTimestamp":"2025-01-04 17:35",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0
+  },
+  {
+    "createdTimestamp":"2025-01-04 19:33",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.1045
+  },
+  {
+    "createdTimestamp":"2025-01-04 19:36",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9448
+  },
+  {
+    "createdTimestamp":"2025-01-04 19:38",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9698
+  },
+  {
+    "createdTimestamp":"2025-01-04 19:59",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.2668
+  },
+  {
+    "createdTimestamp":"2025-01-04 20:43",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0292
+  },
+  {
+    "createdTimestamp":"2025-01-04 20:54",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0683
+  },
+  {
+    "createdTimestamp":"2025-01-04 21:19",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":5.1967
+  },
+  {
+    "createdTimestamp":"2025-01-04 21:22",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0366
+  },
+  {
+    "createdTimestamp":"2025-01-04 21:24",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3961
+  },
+  {
+    "createdTimestamp":"2025-01-04 21:39",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.5084
+  },
+  {
+    "createdTimestamp":"2025-01-04 21:48",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":5.1496
+  },
+  {
+    "createdTimestamp":"2025-01-04 21:59",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.106
+  },
+  {
+    "createdTimestamp":"2025-01-04 22:49",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4256
+  },
+  {
+    "createdTimestamp":"2025-01-04 22:57",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9421
+  },
+  {
+    "createdTimestamp":"2025-01-04 22:58",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.1932
+  },
+  {
+    "createdTimestamp":"2025-01-04 23:18",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8266
+  },
+  {
+    "createdTimestamp":"2025-01-05 00:27",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9717
+  },
+  {
+    "createdTimestamp":"2025-01-05 00:31",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4758
+  },
+  {
+    "createdTimestamp":"2025-01-05 00:33",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0799
+  },
+  {
+    "createdTimestamp":"2025-01-05 00:34",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.5906
+  },
+  {
+    "createdTimestamp":"2025-01-05 00:36",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9955
+  },
+  {
+    "createdTimestamp":"2025-01-05 00:47",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4749
+  },
+  {
+    "createdTimestamp":"2025-01-05 01:44",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9996
+  },
+  {
+    "createdTimestamp":"2025-01-05 02:08",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0653
+  },
+  {
+    "createdTimestamp":"2025-01-05 02:31",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8952
+  },
+  {
+    "createdTimestamp":"2025-01-05 03:00",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3877
+  },
+  {
+    "createdTimestamp":"2025-01-05 03:56",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9722
+  },
+  {
+    "createdTimestamp":"2025-01-05 04:48",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.2427
+  },
+  {
+    "createdTimestamp":"2025-01-05 05:12",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0352
+  },
+  {
+    "createdTimestamp":"2025-01-05 05:39",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4637
+  },
+  {
+    "createdTimestamp":"2025-01-05 06:08",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4678
+  },
+  {
+    "createdTimestamp":"2025-01-05 06:13",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.989
+  },
+  {
+    "createdTimestamp":"2025-01-05 07:14",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4632
+  },
+  {
+    "createdTimestamp":"2025-01-05 07:48",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9749
+  },
+  {
+    "createdTimestamp":"2025-01-05 07:53",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4603
+  },
+  {
+    "createdTimestamp":"2025-01-05 08:13",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0633
+  },
+  {
+    "createdTimestamp":"2025-01-05 09:40",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9909
+  },
+  {
+    "createdTimestamp":"2025-01-05 09:45",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.6375
+  },
+  {
+    "createdTimestamp":"2025-01-05 09:53",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4634
+  },
+  {
+    "createdTimestamp":"2025-01-05 10:37",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.131
+  },
+  {
+    "createdTimestamp":"2025-01-05 10:52",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.1127
+  },
+  {
+    "createdTimestamp":"2025-01-05 11:51",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9824
+  },
+  {
+    "createdTimestamp":"2025-01-05 12:27",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.2664
+  },
+  {
+    "createdTimestamp":"2025-01-05 12:41",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9864
+  },
+  {
+    "createdTimestamp":"2025-01-05 13:15",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4175
+  },
+  {
+    "createdTimestamp":"2025-01-05 13:22",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9812
+  },
+  {
+    "createdTimestamp":"2025-01-05 14:44",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9489
+  },
+  {
+    "createdTimestamp":"2025-01-05 16:55",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.1119
+  },
+  {
+    "createdTimestamp":"2025-01-05 17:03",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.5738
+  },
+  {
+    "createdTimestamp":"2025-01-05 17:06",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0257
+  },
+  {
+    "createdTimestamp":"2025-01-05 18:29",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.179
+  },
+  {
+    "createdTimestamp":"2025-01-05 18:34",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0224
+  },
+  {
+    "createdTimestamp":"2025-01-05 19:11",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0095
+  },
+  {
+    "createdTimestamp":"2025-01-05 19:27",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0067
+  },
+  {
+    "createdTimestamp":"2025-01-05 19:41",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.5275
+  },
+  {
+    "createdTimestamp":"2025-01-05 19:41",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4853
+  },
+  {
+    "createdTimestamp":"2025-01-05 19:44",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.5051
+  },
+  {
+    "createdTimestamp":"2025-01-05 19:55",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4513
+  },
+  {
+    "createdTimestamp":"2025-01-05 20:17",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.7972
+  },
+  {
+    "createdTimestamp":"2025-01-05 20:56",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9978
+  },
+  {
+    "createdTimestamp":"2025-01-05 21:26",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4248
+  },
+  {
+    "createdTimestamp":"2025-01-05 21:36",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.74
+  },
+  {
+    "createdTimestamp":"2025-01-05 22:06",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9152
+  },
+  {
+    "createdTimestamp":"2025-01-05 22:13",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4114
+  },
+  {
+    "createdTimestamp":"2025-01-05 23:19",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9876
+  },
+  {
+    "createdTimestamp":"2025-01-06 01:36",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0043
+  },
+  {
+    "createdTimestamp":"2025-01-06 02:02",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9139
+  },
+  {
+    "createdTimestamp":"2025-01-06 04:24",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4578
+  },
+  {
+    "createdTimestamp":"2025-01-06 04:52",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4944
+  },
+  {
+    "createdTimestamp":"2025-01-06 05:06",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0619
+  },
+  {
+    "createdTimestamp":"2025-01-06 05:23",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.952
+  },
+  {
+    "createdTimestamp":"2025-01-06 05:38",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0167
+  },
+  {
+    "createdTimestamp":"2025-01-06 05:47",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0005
+  },
+  {
+    "createdTimestamp":"2025-01-06 06:17",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4755
+  },
+  {
+    "createdTimestamp":"2025-01-06 06:49",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9101
+  },
+  {
+    "createdTimestamp":"2025-01-06 07:04",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0424
+  },
+  {
+    "createdTimestamp":"2025-01-06 07:18",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.1696
+  },
+  {
+    "createdTimestamp":"2025-01-06 07:51",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.416
+  },
+  {
+    "createdTimestamp":"2025-01-06 08:14",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4321
+  },
+  {
+    "createdTimestamp":"2025-01-06 09:13",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4514
+  },
+  {
+    "createdTimestamp":"2025-01-06 09:43",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.2009
+  },
+  {
+    "createdTimestamp":"2025-01-06 09:44",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9661
+  },
+  {
+    "createdTimestamp":"2025-01-06 09:46",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8062
+  },
+  {
+    "createdTimestamp":"2025-01-06 09:55",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8266
+  },
+  {
+    "createdTimestamp":"2025-01-06 09:55",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9287
+  },
+  {
+    "createdTimestamp":"2025-01-06 09:57",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9806
+  },
+  {
+    "createdTimestamp":"2025-01-06 09:58",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0322
+  },
+  {
+    "createdTimestamp":"2025-01-06 09:59",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0569
+  },
+  {
+    "createdTimestamp":"2025-01-06 10:08",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.2999
+  },
+  {
+    "createdTimestamp":"2025-01-06 10:24",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.7772
+  },
+  {
+    "createdTimestamp":"2025-01-06 10:25",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0287
+  },
+  {
+    "createdTimestamp":"2025-01-06 10:36",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.407
+  },
+  {
+    "createdTimestamp":"2025-01-06 11:20",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9676
+  },
+  {
+    "createdTimestamp":"2025-01-06 11:39",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4639
+  },
+  {
+    "createdTimestamp":"2025-01-06 12:33",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4775
+  },
+  {
+    "createdTimestamp":"2025-01-06 12:58",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4401
+  },
+  {
+    "createdTimestamp":"2025-01-06 14:37",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0147
+  },
+  {
+    "createdTimestamp":"2025-01-06 14:41",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8998
+  },
+  {
+    "createdTimestamp":"2025-01-06 14:51",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4582
+  },
+  {
+    "createdTimestamp":"2025-01-06 15:01",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9934
+  },
+  {
+    "createdTimestamp":"2025-01-06 15:06",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.6343
+  },
+  {
+    "createdTimestamp":"2025-01-06 16:22",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9408
+  },
+  {
+    "createdTimestamp":"2025-01-06 16:28",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9868
+  },
+  {
+    "createdTimestamp":"2025-01-06 17:01",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9662
+  },
+  {
+    "createdTimestamp":"2025-01-06 17:38",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.1717
+  },
+  {
+    "createdTimestamp":"2025-01-06 18:10",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0228
+  },
+  {
+    "createdTimestamp":"2025-01-06 18:45",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0004
+  },
+  {
+    "createdTimestamp":"2025-01-06 19:05",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4533
+  },
+  {
+    "createdTimestamp":"2025-01-06 19:20",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.3196
+  },
+  {
+    "createdTimestamp":"2025-01-06 19:39",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.5034
+  },
+  {
+    "createdTimestamp":"2025-01-06 19:45",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.0634
+  },
+  {
+    "createdTimestamp":"2025-01-06 20:15",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0299
+  },
+  {
+    "createdTimestamp":"2025-01-06 20:54",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4214
+  },
+  {
+    "createdTimestamp":"2025-01-06 21:30",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0548
+  },
+  {
+    "createdTimestamp":"2025-01-06 23:08",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.4438
+  },
+  {
+    "createdTimestamp":"2025-01-06 23:16",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.7101
+  },
+  {
+    "createdTimestamp":"2025-01-06 23:21",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.511
+  },
+  {
+    "createdTimestamp":"2025-01-06 23:23",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.09
+  },
+  {
+    "createdTimestamp":"2025-01-06 23:34",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.6479
+  },
+  {
+    "createdTimestamp":"2025-01-06 23:40",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9802
+  },
+  {
+    "createdTimestamp":"2025-01-06 23:45",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.9907
+  },
+  {
+    "createdTimestamp":"2025-01-07 00:05",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9245
+  },
+  {
+    "createdTimestamp":"2025-01-07 00:05",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9062
+  },
+  {
+    "createdTimestamp":"2025-01-07 00:37",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.964
+  },
+  {
+    "createdTimestamp":"2025-01-07 00:47",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0582
+  },
+  {
+    "createdTimestamp":"2025-01-07 00:56",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.878
+  },
+  {
+    "createdTimestamp":"2025-01-07 01:01",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.042
+  },
+  {
+    "createdTimestamp":"2025-01-07 01:15",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8451
+  },
+  {
+    "createdTimestamp":"2025-01-07 01:17",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9692
+  },
+  {
+    "createdTimestamp":"2025-01-07 01:19",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9857
+  },
+  {
+    "createdTimestamp":"2025-01-07 01:21",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.852
+  },
+  {
+    "createdTimestamp":"2025-01-07 01:58",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":3.2072
+  },
+  {
+    "createdTimestamp":"2025-01-07 02:02",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.5961
+  },
+  {
+    "createdTimestamp":"2025-01-07 02:37",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9622
+  },
+  {
+    "createdTimestamp":"2025-01-07 02:37",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4847
+  },
+  {
+    "createdTimestamp":"2025-01-07 02:50",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.989
+  },
+  {
+    "createdTimestamp":"2025-01-07 03:04",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.1016
+  },
+  {
+    "createdTimestamp":"2025-01-07 03:17",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.7131
+  },
+  {
+    "createdTimestamp":"2025-01-07 03:44",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9098
+  },
+  {
+    "createdTimestamp":"2025-01-07 03:52",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.1378
+  },
+  {
+    "createdTimestamp":"2025-01-07 04:13",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9853
+  },
+  {
+    "createdTimestamp":"2025-01-07 04:25",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0214
+  },
+  {
+    "createdTimestamp":"2025-01-07 04:40",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.408
+  },
+  {
+    "createdTimestamp":"2025-01-07 04:44",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4713
+  },
+  {
+    "createdTimestamp":"2025-01-07 05:05",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0832
+  },
+  {
+    "createdTimestamp":"2025-01-07 05:07",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.422
+  },
+  {
+    "createdTimestamp":"2025-01-07 05:13",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9959
+  },
+  {
+    "createdTimestamp":"2025-01-07 05:46",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9983
+  },
+  {
+    "createdTimestamp":"2025-01-07 05:53",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0262
+  },
+  {
+    "createdTimestamp":"2025-01-07 06:13",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3389
+  },
+  {
+    "createdTimestamp":"2025-01-07 06:26",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.5869
+  },
+  {
+    "createdTimestamp":"2025-01-07 06:31",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0414
+  },
+  {
+    "createdTimestamp":"2025-01-07 07:07",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.9693
+  },
+  {
+    "createdTimestamp":"2025-01-07 07:09",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9703
+  },
+  {
+    "createdTimestamp":"2025-01-07 07:34",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0674
+  },
+  {
+    "createdTimestamp":"2025-01-07 07:46",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0452
+  },
+  {
+    "createdTimestamp":"2025-01-07 08:51",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9457
+  },
+  {
+    "createdTimestamp":"2025-01-07 09:08",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9566
+  },
+  {
+    "createdTimestamp":"2025-01-07 09:09",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0064
+  },
+  {
+    "createdTimestamp":"2025-01-07 09:10",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9675
+  },
+  {
+    "createdTimestamp":"2025-01-07 09:11",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9754
+  },
+  {
+    "createdTimestamp":"2025-01-07 09:13",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0003
+  },
+  {
+    "createdTimestamp":"2025-01-07 09:26",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9823
+  },
+  {
+    "createdTimestamp":"2025-01-07 09:31",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4829
+  },
+  {
+    "createdTimestamp":"2025-01-07 09:38",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9967
+  },
+  {
+    "createdTimestamp":"2025-01-07 10:34",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4962
+  },
+  {
+    "createdTimestamp":"2025-01-07 11:01",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0019
+  },
+  {
+    "createdTimestamp":"2025-01-07 11:22",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0137
+  },
+  {
+    "createdTimestamp":"2025-01-07 11:54",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9412
+  },
+  {
+    "createdTimestamp":"2025-01-07 12:11",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4374
+  },
+  {
+    "createdTimestamp":"2025-01-07 12:12",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4376
+  },
+  {
+    "createdTimestamp":"2025-01-07 13:38",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0566
+  },
+  {
+    "createdTimestamp":"2025-01-07 14:01",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9941
+  },
+  {
+    "createdTimestamp":"2025-01-07 15:18",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0757
+  },
+  {
+    "createdTimestamp":"2025-01-07 15:40",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9383
+  },
+  {
+    "createdTimestamp":"2025-01-07 16:07",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0174
+  },
+  {
+    "createdTimestamp":"2025-01-07 16:28",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9836
+  },
+  {
+    "createdTimestamp":"2025-01-07 16:31",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9689
+  },
+  {
+    "createdTimestamp":"2025-01-07 16:38",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0156
+  },
+  {
+    "createdTimestamp":"2025-01-07 17:02",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9524
+  },
+  {
+    "createdTimestamp":"2025-01-07 17:22",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4877
+  },
+  {
+    "createdTimestamp":"2025-01-07 17:42",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.3331
+  },
+  {
+    "createdTimestamp":"2025-01-07 17:47",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.895
+  },
+  {
+    "createdTimestamp":"2025-01-07 17:48",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0
+  },
+  {
+    "createdTimestamp":"2025-01-07 17:49",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.7986
+  },
+  {
+    "createdTimestamp":"2025-01-07 18:18",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.5053
+  },
+  {
+    "createdTimestamp":"2025-01-07 18:21",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4173
+  },
+  {
+    "createdTimestamp":"2025-01-07 18:28",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4947
+  },
+  {
+    "createdTimestamp":"2025-01-07 19:52",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9303
+  },
+  {
+    "createdTimestamp":"2025-01-07 20:18",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9977
+  },
+  {
+    "createdTimestamp":"2025-01-07 20:51",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.988
+  },
+  {
+    "createdTimestamp":"2025-01-07 20:58",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.5064
+  },
+  {
+    "createdTimestamp":"2025-01-07 21:21",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9766
+  },
+  {
+    "createdTimestamp":"2025-01-07 22:25",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":4.0944
+  },
+  {
+    "createdTimestamp":"2025-01-07 22:28",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.723
+  },
+  {
+    "createdTimestamp":"2025-01-07 22:39",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9526
+  },
+  {
+    "createdTimestamp":"2025-01-07 22:40",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9554
+  },
+  {
+    "createdTimestamp":"2025-01-07 22:42",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9304
+  },
+  {
+    "createdTimestamp":"2025-01-07 23:20",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0987
+  },
+  {
+    "createdTimestamp":"2025-01-07 23:22",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.964
+  },
+  {
+    "createdTimestamp":"2025-01-07 23:22",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.8778
+  },
+  {
+    "createdTimestamp":"2025-01-07 23:27",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.5347
+  },
+  {
+    "createdTimestamp":"2025-01-07 23:28",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3008
+  },
+  {
+    "createdTimestamp":"2025-01-07 23:33",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.6746
+  },
+  {
+    "createdTimestamp":"2025-01-07 23:33",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.9951
+  },
+  {
+    "createdTimestamp":"2025-01-07 23:45",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.624
+  },
+  {
+    "createdTimestamp":"2025-01-07 23:53",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.7832
+  },
+  {
+    "createdTimestamp":"2025-01-07 23:53",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0227
+  },
+  {
+    "createdTimestamp":"2025-01-08 00:09",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.6121
+  },
+  {
+    "createdTimestamp":"2025-01-08 00:24",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0741
+  },
+  {
+    "createdTimestamp":"2025-01-08 00:46",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9575
+  },
+  {
+    "createdTimestamp":"2025-01-08 00:53",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9272
+  },
+  {
+    "createdTimestamp":"2025-01-08 01:33",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8726
+  },
+  {
+    "createdTimestamp":"2025-01-08 01:39",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.082
+  },
+  {
+    "createdTimestamp":"2025-01-08 01:56",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":11.252
+  },
+  {
+    "createdTimestamp":"2025-01-08 02:24",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8533
+  },
+  {
+    "createdTimestamp":"2025-01-08 02:31",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.6156
+  },
+  {
+    "createdTimestamp":"2025-01-08 02:57",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.893
+  },
+  {
+    "createdTimestamp":"2025-01-08 03:07",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0364
+  },
+  {
+    "createdTimestamp":"2025-01-08 03:08",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9317
+  },
+  {
+    "createdTimestamp":"2025-01-08 03:12",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.7389
+  },
+  {
+    "createdTimestamp":"2025-01-08 03:26",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3504
+  },
+  {
+    "createdTimestamp":"2025-01-08 03:33",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9584
+  },
+  {
+    "createdTimestamp":"2025-01-08 03:34",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9953
+  },
+  {
+    "createdTimestamp":"2025-01-08 03:38",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9468
+  },
+  {
+    "createdTimestamp":"2025-01-08 04:20",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0549
+  },
+  {
+    "createdTimestamp":"2025-01-08 05:14",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0175
+  },
+  {
+    "createdTimestamp":"2025-01-08 05:29",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0973
+  },
+  {
+    "createdTimestamp":"2025-01-08 05:50",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0032
+  },
+  {
+    "createdTimestamp":"2025-01-08 06:04",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9775
+  },
+  {
+    "createdTimestamp":"2025-01-08 07:03",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.4529
+  },
+  {
+    "createdTimestamp":"2025-01-08 07:14",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4935
+  },
+  {
+    "createdTimestamp":"2025-01-08 07:21",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9524
+  },
+  {
+    "createdTimestamp":"2025-01-08 07:27",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4683
+  },
+  {
+    "createdTimestamp":"2025-01-08 07:34",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4835
+  },
+  {
+    "createdTimestamp":"2025-01-08 08:00",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3594
+  },
+  {
+    "createdTimestamp":"2025-01-08 08:02",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0313
+  },
+  {
+    "createdTimestamp":"2025-01-08 08:16",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.951
+  },
+  {
+    "createdTimestamp":"2025-01-08 09:20",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9575
+  },
+  {
+    "createdTimestamp":"2025-01-08 09:37",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.5858
+  },
+  {
+    "createdTimestamp":"2025-01-08 10:17",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9285
+  },
+  {
+    "createdTimestamp":"2025-01-08 10:47",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9287
+  },
+  {
+    "createdTimestamp":"2025-01-08 11:12",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.454
+  },
+  {
+    "createdTimestamp":"2025-01-08 11:22",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.5033
+  },
+  {
+    "createdTimestamp":"2025-01-08 11:40",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3263
+  },
+  {
+    "createdTimestamp":"2025-01-08 11:53",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8525
+  },
+  {
+    "createdTimestamp":"2025-01-08 11:54",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9908
+  },
+  {
+    "createdTimestamp":"2025-01-08 11:59",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9839
+  },
+  {
+    "createdTimestamp":"2025-01-08 12:08",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4683
+  },
+  {
+    "createdTimestamp":"2025-01-08 12:09",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4641
+  },
+  {
+    "createdTimestamp":"2025-01-08 12:13",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4195
+  },
+  {
+    "createdTimestamp":"2025-01-08 12:15",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3472
+  },
+  {
+    "createdTimestamp":"2025-01-08 12:17",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4146
+  },
+  {
+    "createdTimestamp":"2025-01-08 12:28",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9795
+  },
+  {
+    "createdTimestamp":"2025-01-08 12:32",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0067
+  },
+  {
+    "createdTimestamp":"2025-01-08 12:51",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8606
+  },
+  {
+    "createdTimestamp":"2025-01-08 13:06",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.182
+  },
+  {
+    "createdTimestamp":"2025-01-08 13:09",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.962
+  },
+  {
+    "createdTimestamp":"2025-01-08 13:11",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9929
+  },
+  {
+    "createdTimestamp":"2025-01-08 13:14",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.5926
+  },
+  {
+    "createdTimestamp":"2025-01-08 13:27",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0814
+  },
+  {
+    "createdTimestamp":"2025-01-08 13:34",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0538
+  },
+  {
+    "createdTimestamp":"2025-01-08 14:24",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.1008
+  },
+  {
+    "createdTimestamp":"2025-01-08 14:39",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.6133
+  },
+  {
+    "createdTimestamp":"2025-01-08 14:52",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.841
+  },
+  {
+    "createdTimestamp":"2025-01-08 15:01",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":11.1074
+  },
+  {
+    "createdTimestamp":"2025-01-08 15:06",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.91
+  },
+  {
+    "createdTimestamp":"2025-01-08 15:08",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.1875
+  },
+  {
+    "createdTimestamp":"2025-01-08 15:17",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3543
+  },
+  {
+    "createdTimestamp":"2025-01-08 15:31",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":5.365
+  },
+  {
+    "createdTimestamp":"2025-01-08 15:54",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0533
+  },
+  {
+    "createdTimestamp":"2025-01-08 15:58",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0493
+  },
+  {
+    "createdTimestamp":"2025-01-08 16:07",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4638
+  },
+  {
+    "createdTimestamp":"2025-01-08 16:25",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.1771
+  },
+  {
+    "createdTimestamp":"2025-01-08 16:41",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9805
+  },
+  {
+    "createdTimestamp":"2025-01-08 16:43",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0281
+  },
+  {
+    "createdTimestamp":"2025-01-08 16:46",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9685
+  },
+  {
+    "createdTimestamp":"2025-01-08 17:48",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0017
+  },
+  {
+    "createdTimestamp":"2025-01-08 18:59",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0046
+  },
+  {
+    "createdTimestamp":"2025-01-08 19:15",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4364
+  },
+  {
+    "createdTimestamp":"2025-01-08 19:27",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4928
+  },
+  {
+    "createdTimestamp":"2025-01-08 19:31",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8826
+  },
+  {
+    "createdTimestamp":"2025-01-08 19:34",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.7423
+  },
+  {
+    "createdTimestamp":"2025-01-08 19:52",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0
+  },
+  {
+    "createdTimestamp":"2025-01-08 20:56",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.7581
+  },
+  {
+    "createdTimestamp":"2025-01-08 21:18",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4001
+  },
+  {
+    "createdTimestamp":"2025-01-08 21:25",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.5016
+  },
+  {
+    "createdTimestamp":"2025-01-08 21:30",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3355
+  },
+  {
+    "createdTimestamp":"2025-01-08 21:39",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9998
+  },
+  {
+    "createdTimestamp":"2025-01-08 22:36",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.7682
+  },
+  {
+    "createdTimestamp":"2025-01-08 22:37",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8042
+  },
+  {
+    "createdTimestamp":"2025-01-08 22:41",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3921
+  },
+  {
+    "createdTimestamp":"2025-01-08 22:44",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3675
+  },
+  {
+    "createdTimestamp":"2025-01-08 23:00",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9738
+  },
+  {
+    "createdTimestamp":"2025-01-08 23:06",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.312
+  },
+  {
+    "createdTimestamp":"2025-01-08 23:40",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.6688
+  },
+  {
+    "createdTimestamp":"2025-01-08 23:43",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0869
+  },
+  {
+    "createdTimestamp":"2025-01-08 23:44",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.52
+  },
+  {
+    "createdTimestamp":"2025-01-08 23:47",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8346
+  },
+  {
+    "createdTimestamp":"2025-01-09 00:05",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3433
+  },
+  {
+    "createdTimestamp":"2025-01-09 00:12",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.02
+  },
+  {
+    "createdTimestamp":"2025-01-09 00:50",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.679
+  },
+  {
+    "createdTimestamp":"2025-01-09 01:10",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.1677
+  },
+  {
+    "createdTimestamp":"2025-01-09 01:20",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.1767
+  },
+  {
+    "createdTimestamp":"2025-01-09 01:33",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0
+  },
+  {
+    "createdTimestamp":"2025-01-09 02:02",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0055
+  },
+  {
+    "createdTimestamp":"2025-01-09 02:03",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.1957
+  },
+  {
+    "createdTimestamp":"2025-01-09 02:13",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0134
+  },
+  {
+    "createdTimestamp":"2025-01-09 02:32",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0232
+  },
+  {
+    "createdTimestamp":"2025-01-09 02:57",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.3691
+  },
+  {
+    "createdTimestamp":"2025-01-09 03:09",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.1648
+  },
+  {
+    "createdTimestamp":"2025-01-09 03:31",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.7217
+  },
+  {
+    "createdTimestamp":"2025-01-09 03:34",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9323
+  },
+  {
+    "createdTimestamp":"2025-01-09 03:42",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0211
+  },
+  {
+    "createdTimestamp":"2025-01-09 03:44",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.9118
+  },
+  {
+    "createdTimestamp":"2025-01-09 03:46",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0534
+  },
+  {
+    "createdTimestamp":"2025-01-09 03:54",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9465
+  },
+  {
+    "createdTimestamp":"2025-01-09 04:26",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.5186
+  },
+  {
+    "createdTimestamp":"2025-01-09 04:52",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0087
+  },
+  {
+    "createdTimestamp":"2025-01-09 05:24",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0002
+  },
+  {
+    "createdTimestamp":"2025-01-09 05:48",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.1032
+  },
+  {
+    "createdTimestamp":"2025-01-09 05:48",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0279
+  },
+  {
+    "createdTimestamp":"2025-01-09 06:11",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0125
+  },
+  {
+    "createdTimestamp":"2025-01-09 06:25",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":3.0663
+  },
+  {
+    "createdTimestamp":"2025-01-09 06:57",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0
+  },
+  {
+    "createdTimestamp":"2025-01-09 07:14",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4937
+  },
+  {
+    "createdTimestamp":"2025-01-09 08:44",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0212
+  },
+  {
+    "createdTimestamp":"2025-01-09 08:46",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0555
+  },
+  {
+    "createdTimestamp":"2025-01-09 09:03",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.1929
+  },
+  {
+    "createdTimestamp":"2025-01-09 09:09",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":6.1424
+  },
+  {
+    "createdTimestamp":"2025-01-09 09:19",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":3.6299
+  },
+  {
+    "createdTimestamp":"2025-01-09 09:27",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9682
+  },
+  {
+    "createdTimestamp":"2025-01-09 09:56",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":8.9513
+  },
+  {
+    "createdTimestamp":"2025-01-09 10:12",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3092
+  },
+  {
+    "createdTimestamp":"2025-01-09 10:20",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0603
+  },
+  {
+    "createdTimestamp":"2025-01-09 10:30",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0
+  },
+  {
+    "createdTimestamp":"2025-01-09 11:10",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.018
+  },
+  {
+    "createdTimestamp":"2025-01-09 11:21",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4474
+  },
+  {
+    "createdTimestamp":"2025-01-09 11:42",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4452
+  },
+  {
+    "createdTimestamp":"2025-01-09 11:43",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4524
+  },
+  {
+    "createdTimestamp":"2025-01-09 11:47",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0289
+  },
+  {
+    "createdTimestamp":"2025-01-09 11:52",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4575
+  },
+  {
+    "createdTimestamp":"2025-01-09 12:03",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9753
+  },
+  {
+    "createdTimestamp":"2025-01-09 12:05",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8453
+  },
+  {
+    "createdTimestamp":"2025-01-09 12:06",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.5094
+  },
+  {
+    "createdTimestamp":"2025-01-09 12:22",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9266
+  },
+  {
+    "createdTimestamp":"2025-01-09 12:57",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.3791
+  },
+  {
+    "createdTimestamp":"2025-01-09 13:06",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.881
+  },
+  {
+    "createdTimestamp":"2025-01-09 13:36",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.4677
+  },
+  {
+    "createdTimestamp":"2025-01-09 13:43",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4526
+  },
+  {
+    "createdTimestamp":"2025-01-09 14:00",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0079
+  },
+  {
+    "createdTimestamp":"2025-01-09 14:14",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0546
+  },
+  {
+    "createdTimestamp":"2025-01-09 14:15",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.112
+  },
+  {
+    "createdTimestamp":"2025-01-09 14:28",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4853
+  },
+  {
+    "createdTimestamp":"2025-01-09 14:44",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9764
+  },
+  {
+    "createdTimestamp":"2025-01-09 15:40",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8639
+  },
+  {
+    "createdTimestamp":"2025-01-09 15:51",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.1145
+  },
+  {
+    "createdTimestamp":"2025-01-09 15:55",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.023
+  },
+  {
+    "createdTimestamp":"2025-01-09 16:34",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.6207
+  },
+  {
+    "createdTimestamp":"2025-01-09 17:21",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0522
+  },
+  {
+    "createdTimestamp":"2025-01-09 17:37",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.4127
+  },
+  {
+    "createdTimestamp":"2025-01-09 18:07",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.6394
+  },
+  {
+    "createdTimestamp":"2025-01-09 18:35",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0163
+  },
+  {
+    "createdTimestamp":"2025-01-09 19:46",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4562
+  },
+  {
+    "createdTimestamp":"2025-01-09 21:21",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.3446
+  },
+  {
+    "createdTimestamp":"2025-01-09 21:43",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0204
+  },
+  {
+    "createdTimestamp":"2025-01-09 21:48",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.001
+  },
+  {
+    "createdTimestamp":"2025-01-09 21:59",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8391
+  },
+  {
+    "createdTimestamp":"2025-01-09 22:01",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9247
+  },
+  {
+    "createdTimestamp":"2025-01-09 22:14",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.8507
+  },
+  {
+    "createdTimestamp":"2025-01-09 22:31",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.1592
+  },
+  {
+    "createdTimestamp":"2025-01-09 22:54",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9539
+  },
+  {
+    "createdTimestamp":"2025-01-09 22:54",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.7216
+  },
+  {
+    "createdTimestamp":"2025-01-09 23:00",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.987
+  },
+  {
+    "createdTimestamp":"2025-01-09 23:16",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0762
+  },
+  {
+    "createdTimestamp":"2025-01-09 23:21",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.5437
+  },
+  {
+    "createdTimestamp":"2025-01-09 23:30",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.2346
+  },
+  {
+    "createdTimestamp":"2025-01-09 23:48",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0316
+  },
+  {
+    "createdTimestamp":"2025-01-09 23:52",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8966
+  },
+  {
+    "createdTimestamp":"2025-01-09 23:52",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0
+  },
+  {
+    "createdTimestamp":"2025-01-10 00:23",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.2814
+  },
+  {
+    "createdTimestamp":"2025-01-10 00:40",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.694
+  },
+  {
+    "createdTimestamp":"2025-01-10 00:55",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9472
+  },
+  {
+    "createdTimestamp":"2025-01-10 01:11",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.7509
+  },
+  {
+    "createdTimestamp":"2025-01-10 01:45",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9735
+  },
+  {
+    "createdTimestamp":"2025-01-10 01:54",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9986
+  },
+  {
+    "createdTimestamp":"2025-01-10 01:56",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0585
+  },
+  {
+    "createdTimestamp":"2025-01-10 02:00",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.2417
+  },
+  {
+    "createdTimestamp":"2025-01-10 02:05",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0
+  },
+  {
+    "createdTimestamp":"2025-01-10 02:56",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4032
+  },
+  {
+    "createdTimestamp":"2025-01-10 03:21",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.6315
+  },
+  {
+    "createdTimestamp":"2025-01-10 03:23",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8345
+  },
+  {
+    "createdTimestamp":"2025-01-10 03:33",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.334
+  },
+  {
+    "createdTimestamp":"2025-01-10 03:33",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4438
+  },
+  {
+    "createdTimestamp":"2025-01-10 03:37",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0792
+  },
+  {
+    "createdTimestamp":"2025-01-10 03:38",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8427
+  },
+  {
+    "createdTimestamp":"2025-01-10 03:40",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.7447
+  },
+  {
+    "createdTimestamp":"2025-01-10 03:41",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8135
+  },
+  {
+    "createdTimestamp":"2025-01-10 03:49",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.2596
+  },
+  {
+    "createdTimestamp":"2025-01-10 03:53",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.8475
+  },
+  {
+    "createdTimestamp":"2025-01-10 04:04",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.2727
+  },
+  {
+    "createdTimestamp":"2025-01-10 04:22",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.4025
+  },
+  {
+    "createdTimestamp":"2025-01-10 04:27",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4424
+  },
+  {
+    "createdTimestamp":"2025-01-10 04:31",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.5176
+  },
+  {
+    "createdTimestamp":"2025-01-10 04:33",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.4012
+  },
+  {
+    "createdTimestamp":"2025-01-10 04:35",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.176
+  },
+  {
+    "createdTimestamp":"2025-01-10 04:39",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.5242
+  },
+  {
+    "createdTimestamp":"2025-01-10 04:44",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.1823
+  },
+  {
+    "createdTimestamp":"2025-01-10 04:52",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0
+  },
+  {
+    "createdTimestamp":"2025-01-10 05:07",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0
+  },
+  {
+    "createdTimestamp":"2025-01-10 05:15",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9662
+  },
+  {
+    "createdTimestamp":"2025-01-10 05:20",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9584
+  },
+  {
+    "createdTimestamp":"2025-01-10 05:21",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.2774
+  },
+  {
+    "createdTimestamp":"2025-01-10 05:22",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9715
+  },
+  {
+    "createdTimestamp":"2025-01-10 06:09",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.0082
+  },
+  {
+    "createdTimestamp":"2025-01-10 06:17",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":2.1024
+  },
+  {
+    "createdTimestamp":"2025-01-10 06:33",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0
+  },
+  {
+    "createdTimestamp":"2025-01-10 07:14",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":0.0
+  },
+  {
+    "createdTimestamp":"2025-01-10 07:38",
+    "sellSymbol":"Wrapped Ether",
+    "buySymbol":"USD Coin",
+    "tokenPair":"Wrapped Ether \u2192 USD Coin",
+    "surplus":1.9587
+  }
+]

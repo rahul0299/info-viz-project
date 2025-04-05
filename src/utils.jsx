@@ -9,6 +9,9 @@ export const fetchData = async () => {
         orderSolverDelayData: await fetchOrderSolverDelayData(),
         solverParticipationData: await fetchSolverParticipationData(),
         tokenPairTreeMapData: await fetchTokenPairTreeMapData(),
+        surplusLineData: await fetchSurplusLineData(),
+        solverBubbleData: await fetchSolverBubbleData(),
+        partialFilledData: await fetchPartialFilledData(),
     };
 }
 
@@ -38,5 +41,17 @@ export const fetchSolverParticipationData = async () => {
 
 export const fetchTokenPairTreeMapData = async () => {
     return await fetch("/out/treemap_token_pair_volume.json").then(res => res.json());
+}
+
+export const fetchSurplusLineData = async () => {
+    return await fetch("/out/surplus_trend_5760fc_Wrapped Ether_USD Coin_7d.json").then(res => res.json());
+}
+
+export const fetchSolverBubbleData = async () => {
+    return await fetch("/out/bubble_solver_volume_5760fc.json").then(res => res.json());
+}
+
+export const fetchPartialFilledData = async () => {
+    return await fetch("/out/partially_fillable_5760fc.json").then(res => res.json());
 }
 

@@ -7,7 +7,10 @@ export const initialState = {
     },
     orderSolverDelayData: [],
     solverParticipationData: [],
-    tokenPairTreeMapData: []
+    tokenPairTreeMapData: [],
+    surplusLineData: [],
+    solverBubbleData: [],
+    partialFilledData: [],
 }
 
 export const StoreContext = createContext(initialState);

@@ -29,8 +29,6 @@ const TokenPairTreemap = ({ data }) => {
 };
 
 const CustomTooltip = ({ active, payload }) => {
-    console.log(payload);
-    console.log(active);
     if (!active || !payload?.length) return null;
     const { tokenPair, value } = payload[0].payload;
     return (

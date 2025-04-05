@@ -6,6 +6,9 @@ import {useState} from "react";
 import OrderSolverDelayChart from "./components/OrderSolverDelayChart.jsx";
 import SolverParticipationChart from "./components/SolverParticipationChart.jsx";
 import TokenPairTreeMap from "./components/TokenPairTreeMap.jsx";
+import SurplusTrendChart from "./components/SurplusTrendChart.jsx";
+import SolverBubbleChart from "./components/SolverBubbleChart.jsx";
+import PartialFilledDonutChart from "./components/PartialFilledDonutChart.jsx";
 
 function App() {
   const {
@@ -13,7 +16,12 @@ function App() {
     orderSolverDelayData,
     solverParticipationData,
     tokenPairTreeMapData,
+    surplusLineData,
+    solverBubbleData,
+    partialFilledData,
   } = useStore();
+
+  console.log(partialFilledData);
 
   const [view, setView] = useState("24h");
 
@@ -25,6 +33,11 @@ function App() {
     <OrderSolverDelayChart data={orderSolverDelayData} />
     <SolverParticipationChart data={solverParticipationData} />
     <TokenPairTreeMap data={tokenPairTreeMapData} />
+
+    <h2>Solver Address (Page 2)</h2>
+    <SurplusTrendChart data={surplusLineData} />
+    <SolverBubbleChart data={solverBubbleData} width={600} height={600} />
+    <PartialFilledDonutChart data={partialFilledData} />
   </div>;
 }
 
