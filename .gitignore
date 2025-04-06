@@ -27,4 +27,8 @@ dist-ssr
 /mappers/
 /Info Viz Calculations.pdf
 /data/
-/venv/
+
+.history
+**/venv
+
+**/__pycache__/
