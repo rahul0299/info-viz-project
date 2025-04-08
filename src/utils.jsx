@@ -47,7 +47,7 @@ export const fetchData = async (state) => {
 
     // fetch global stats
     if (selectedSolver === "solver-global") {
-        const treeMapMetric = state.dashboard.tokenPairTreeMap.metric;
+        const treeMapMetric = state.dashboard?.tokenPairTreeMap.metric || "volume";
 
         return {
             solverList: await fetchSolverList(),
@@ -73,6 +73,7 @@ export const fetchData = async (state) => {
     } else {
         const surplusTokenPair = state.solverDashboard?.surplusTrend?.tokenPair ?? null;
         const swapHistoryTokenPair = state.solverDashboard?.swapHistory?.tokenPair ?? "All";
+        const bubbleMetric = state.solverDashboard?.tokenPairBubble?.metric || "volume";
 
         return {
             solverList: await fetchSolverList(),
@@ -87,6 +88,10 @@ export const fetchData = async (state) => {
                 swapHistory: {
                     tokenPair: swapHistoryTokenPair,
                     data: await fetchSwapHistory(range_days, selectedSolver, swapHistoryTokenPair),
+                },
+                tokenPairBubble: {
+                    metric: bubbleMetric,
+                    data: await fetchTokenPairBubble(bubbleMetric, range_days, selectedSolver),
                 }
             }
         };
@@ -106,7 +111,11 @@ const fetchSolverParticipation = async (range_days) => {
 }
 
 const fetchTokenPairTreeMap = async (metric, range_days) => {
-    return []
+    return await fetch(`${apiUrl}/token-pair-stats?range_days=${range_days}&type=${metric}`).then(res => res.json());
+}
+
+const fetchTokenPairBubble = async (metric, range_days, solver) => {
+    return await fetch(`${apiUrl}/token-pair-stats?range_days=${range_days}&type=${metric}&solver=${solver}`).then(res => res.json());
 }
 
 const fetchOrderSolverTimeDiff = async (range_days) => {
@@ -134,7 +143,7 @@ const fetchSurplusTrend = async (range_days, solver, tokenPair) => {
 }
 
 const fetchOrderDistribution = async (range_days, solver) => {
-    return await fetch(`${apiUrl}/order-distribution-by?range_days=${range_days}`, {}).then(res => res.json());
+    return await fetch(`${apiUrl}/order-distribution-by?range_days=${range_days}&solver=${solver}`, {}).then(res => res.json());
 }
 
 const fetchSwapHistory = async (range_days, solver, tokenPair) => {

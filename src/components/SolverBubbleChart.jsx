@@ -14,6 +14,9 @@ const SolverBubbleChart = ({ data, width, height }) => {
         const svg = d3.select(svgRef.current);
         svg.selectAll("*").remove();
 
+        svg
+            .attr("viewBox", `0 0 ${width} ${height}`);
+
         // Create React root once
         if (!tooltipRootRef.current && tooltipDivRef.current) {
             tooltipRootRef.current = ReactDOM.createRoot(tooltipDivRef.current);
@@ -63,6 +66,7 @@ const SolverBubbleChart = ({ data, width, height }) => {
                             borderRadius: 4,
                             fontSize: 12,
                             fontFamily: "Roboto",
+                            width: "350px",
                         }}
                     >
                         <div style={{ marginBottom: 8 }}>
@@ -99,7 +103,7 @@ const SolverBubbleChart = ({ data, width, height }) => {
             });
 
 
-        nodes.transition().duration(600).attr("r", (d) => d.r);
+        nodes.attr("r", (d) => d.r);
     }, [data, height, width]);
 
     return (

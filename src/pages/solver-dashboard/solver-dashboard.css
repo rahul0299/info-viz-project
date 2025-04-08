@@ -31,9 +31,15 @@
     min-height: 300px;
 }
 
-.bubble-chart,
 .order-composition {
     padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    min-height: 300px;
+}
+
+.bubble-chart {
+    padding: 10px;
     border-radius: 8px;
     text-align: center;
     min-height: 300px;

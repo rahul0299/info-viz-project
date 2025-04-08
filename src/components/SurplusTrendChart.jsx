@@ -7,7 +7,7 @@ import {
     YAxis,
     Tooltip,
 } from "recharts";
-import {formatDate} from "../utils.jsx";
+import {formatDate, formatNumber} from "../utils.jsx";
 import {useSolverActions} from "../store/actions/use-solver-actions.jsx";
 import SolverDashboardTokenPairSelect from "./solver-dashboard-token-pair-select/SolverDashboardTokenPairSelect.jsx";
 
@@ -40,7 +40,7 @@ const SurplusTrendChart = ({ data, tokenPairs, selectedTokenPair }) => {
                             />
 
                             <Tooltip
-                                formatter={value => value}
+                                formatter={value => formatNumber(value)}
                                 labelFormatter={label => formatDate(label)} />
                             <Line
                                 type="monotone"

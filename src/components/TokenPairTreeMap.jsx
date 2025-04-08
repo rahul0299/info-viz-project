@@ -10,12 +10,18 @@ import {useDashboardActions} from "../store/actions/use-dashboard-actions.jsx";
 const TokenPairTreemap = ({ data, metric="volume" }) => {
     const dashboardActions = useDashboardActions();
 
+    const flattenedData = data.map(d => ({
+        ...d,
+        tokenPairLabel: `${d.tokenPair.sellToken.name} → ${d.tokenPair.buyToken.name}`
+    }));
+
     return <div style={{
         display: "flex",
         flexDirection: "column",
         justifyContent: "start",
         height: "100%",
-        width: "100%"
+        width: "100%",
+        gap: 10
     }}>
         <div style={{ display: "flex", justifyContent: "end" }}>
             <ButtonGroup size="small">
@@ -41,9 +47,9 @@ const TokenPairTreemap = ({ data, metric="volume" }) => {
                     ?
                     <ResponsiveContainer width="100%" height={400}>
                         <Treemap
-                            data={data}
+                            data={flattenedData}
                             dataKey="value"
-                            nameKey="tokenPair"
+                            nameKey="tokenPairLabel"
                             stroke="#fff"
                             fill="#8884d8"
                             aspectRatio={4 / 3}
@@ -62,13 +68,13 @@ const TokenPairTreemap = ({ data, metric="volume" }) => {
 
 const CustomTooltip = ({ active, payload }) => {
     if (!active || !payload?.length) return null;
-    const { tokenPair, value } = payload[0].payload;
+    const { tokenPairLabel, value, binCounts } = payload[0].payload;
     return (
         <div style={{ background: "white", border: "1px solid #ccc", padding: "20px", fontFamily: "monospace" }}>
-            <strong>{tokenPair}</strong><br />
+            <strong>{tokenPairLabel}</strong><br />
             {value.toLocaleString()} {value > 10000 ? "USD" : "orders"}
             <div style={{ marginTop: "10px" }}>
-                <DonutChart binCounts={payload[0].payload.binCounts} />
+                <DonutChart binCounts={binCounts} />
             </div>
         </div>
     );
@@ -76,12 +82,12 @@ const CustomTooltip = ({ active, payload }) => {
 
 const CustomTreemapContent = (props) => {
     const {
-        x, y, width, height, index, tokenPair,
+        x, y, width, height, index, tokenPairLabel,
         colors = ["#8884d8", "#83a6ed", "#8dd1e1", "#82ca9d"]
     } = props;
 
 
-    const name = tokenPair || ""
+    const name = tokenPairLabel || ""
     const color = colors[index % colors.length];
     const padding = 4;
     const textFontSize = 10;

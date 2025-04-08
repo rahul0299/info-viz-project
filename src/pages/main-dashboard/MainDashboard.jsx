@@ -26,7 +26,7 @@ const MainDashboard = () => {
         <div className="box dashboard-viz volume-trend"><VolumeTrendChart data={state.dashboard?.volumeTrend || []} /></div>
         <div className="box dashboard-viz solver-time"><OrderSolverDelayChart data={state.dashboard?.orderSolverTimeDiff.binCounts || []} /></div>
         <div className="box dashboard-viz participants"><SolverParticipationChart data={state.dashboard?.solverParticipation || []}/></div>
-        <div className="box dashboard-viz treemap"><TokenPairTreemap data={[]} metric={state.dashboard?.tokenPairTreeMap.metric} /></div>
+        <div className="box dashboard-viz treemap"><TokenPairTreemap data={state.dashboard?.tokenPairTreeMap.data || []} metric={state.dashboard?.tokenPairTreeMap.metric} /></div>
     </div>
 }
 

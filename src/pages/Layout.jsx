@@ -25,8 +25,16 @@ const getPage = (page) => {
     } else if (page === "solver-leaderboard") {
         return <LeaderboardPage />
     }
-
     return <SolverDashboard />
+}
+
+const getTitle = (page) => {
+    if (page === "solver-global") {
+        return "Dashboard";
+    } else if (page === "solver-leaderboard") {
+        return "Leaderboard";
+    }
+    return "Solver Dashboard";
 }
 
 const Layout = () => {
@@ -36,7 +44,7 @@ const Layout = () => {
 
     return <div>
         <div className="header">
-            <Typography variant="h4" component="h1">Page Title</Typography>
+            <Typography variant="h4" component="h1">{getTitle(state.selectedSolver)}</Typography>
 
             <SolverSelect />
 

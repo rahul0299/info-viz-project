@@ -2,7 +2,7 @@ import SolverDashboardTokenPairSelect from "./solver-dashboard-token-pair-select
 import SwapHistoryTable from "./SwapHistoryTable.jsx";
 import {useSolverActions} from "../store/actions/use-solver-actions.jsx";
 
-const SwapHistorySolverViz = ({data, tokenPairs=[], selectedTokenPair}) => {
+const SwapHistoryWrapper = ({data, tokenPairs=[], selectedTokenPair}) => {
     const { setSwapHistoryTokenPair } = useSolverActions();
 
     return <div style={{
@@ -35,4 +35,4 @@ const SwapHistorySolverViz = ({data, tokenPairs=[], selectedTokenPair}) => {
 
 }
 
-export default SwapHistorySolverViz;
+export default SwapHistoryWrapper;

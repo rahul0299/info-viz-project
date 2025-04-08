@@ -4,7 +4,8 @@ import {Typography} from "@mui/material";
 import {formatNumber, formatTitle} from "../../utils.jsx";
 import SurplusTrendChart from "../../components/SurplusTrendChart.jsx";
 import PartialFilledDonutChart from "../../components/PartialFilledDonutChart.jsx";
-import SwapHistorySolverViz from "../../components/SwapHistorySolverViz.jsx";
+import SwapHistoryWrapper from "../../components/SwapHistoryWrapper.jsx";
+import SolverBubbleWrapper from "../../components/solver-select/SolverBubbleWrapper.jsx";
 
 const SolverDashboard = () => {
     const { state } = useStore();
@@ -32,13 +33,17 @@ const SolverDashboard = () => {
                         selectedTokenPair={state.solverDashboard.surplusTrend.tokenPair}
                     />
                 </div>
-                <div className="box bubble-chart">Bubble Chart</div>
+                <div className="box bubble-chart">
+                    <SolverBubbleWrapper
+                        data={state.solverDashboard.tokenPairBubble.data}
+                        metric={state.solverDashboard.tokenPairBubble.metric} />
+                </div>
                 <div className="box order-composition">
                     <PartialFilledDonutChart data={state.solverDashboard.orderDistribution} />
                 </div>
 
                 <div className="box swap-history-table">
-                    <SwapHistorySolverViz
+                    <SwapHistoryWrapper
                         data={state.solverDashboard.swapHistory.data}
                         tokenPairs={state.solverDashboard.tokenPairList}
                         selectedTokenPair={state.solverDashboard.swapHistory.tokenPair}

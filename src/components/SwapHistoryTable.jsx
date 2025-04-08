@@ -38,7 +38,7 @@ const headers = [
 const SwapHistoryTable = ({ data }) => {
 
     return (
-        <Paper variant="outlined" sx={{ maxHeight: 300, overflowY: 'auto', border: "1px solid lightgray", width: "100%" }} >
+        <Paper variant="outlined" sx={{ maxHeight: 400, overflowY: 'auto', border: "1px solid lightgray", width: "100%" }} >
             <Table>
                 <TableHead>
                     <TableRow>

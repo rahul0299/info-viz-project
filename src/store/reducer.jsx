@@ -49,6 +49,18 @@ export const reducer = (state, action) => {
                 },
             };
 
+        case "SET_TOKEN_PAIR_BUBBLE_METRIC":
+            return {
+                ...state,
+                solverDashboard: {
+                    ...state.solverDashboard,
+                    tokenPairBubble: {
+                        ...state.solverDashboard.tokenPairBubble,
+                        metric: action.payload,
+                    },
+                },
+            };
+
         default:
             return state;
     }

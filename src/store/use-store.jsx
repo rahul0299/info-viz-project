@@ -22,10 +22,10 @@ export const initialState = {
             tokenPair: null,
             data: []
         },
-        // tokenPairBubble: {
-        //     metric: "volume",
-        //     data: [],
-        // },
+        tokenPairBubble: {
+            metric: "volume",
+            data: [],
+        },
         orderDistribution: {},
         swapHistory: {
             tokenPair: "All",

@@ -18,7 +18,7 @@ export const StoreProvider = ({ children }) => {
     useEffect(() => {
         refreshData().then(() => {console.log("Refreshed Data")});
 
-        const refreshInterval = setInterval(refreshData, 5 * 60 * 1000);
+        const refreshInterval = setInterval(refreshData, 10 * 1000);
 
         return () => clearInterval(refreshInterval);
     }, [
