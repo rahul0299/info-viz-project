@@ -5,12 +5,13 @@ from app.models import Solver
 from app.pd_loaded import *
 from app.utils import *
 
+
 async def get_all_solvers(db):
     result = await db.execute(select(Solver))
     return result.scalars().all()
 
 
-async def get_volumn_trend(db, interval: int, range_days: int, c = None):
+async def get_volumn_trend(db, interval: int, range_days: int, solver: str = None):
     end_time = datetime.utcnow()
     start_time = end_time - timedelta(days=range_days)
 
@@ -328,6 +329,7 @@ async def get_order_distribution_by(db, range_days: int, type: str, solver: str 
 
     bin_counts = {str(row[0]): row[1] for row in rows}
     return {"binCounts": bin_counts}
+
 
 async def get_latest_txns(
     db,
