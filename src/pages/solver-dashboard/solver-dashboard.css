@@ -1,0 +1,48 @@
+.solver-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.solver-page-header {
+    display: flex;
+    gap: 10px;
+}
+
+.metric-box {
+    flex-grow: 1;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.solver-page-main {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1.5fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.surplus-chart {
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    min-height: 300px;
+}
+
+.bubble-chart,
+.order-composition {
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    min-height: 300px;
+}
+
+.swap-history-table {
+    padding: 10px;
+    border-radius: 8px;
+    min-height: 300px;
+    grid-column: 1 / -1;
+    /*background-color: #f3f3f3;*/
+}

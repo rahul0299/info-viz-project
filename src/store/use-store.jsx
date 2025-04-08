@@ -1,16 +1,37 @@
 import {createContext, useContext} from "react";
 
 export const initialState = {
-    volumeTrendData: {
-        "24h": [],
-        "7d": []
+    interval: "4hr",
+    range_days: 7,
+    solverList: [],
+    selectedSolver: "solver-global",
+    dashboard: {
+        stats: [],
+        volumeTrend: [],
+        orderSolverTimeDiff: {},
+        solverParticipation: [],
+        tokenPairTreeMap: {
+            metric: "volume",
+            data: [],
+        }
     },
-    orderSolverDelayData: [],
-    solverParticipationData: [],
-    tokenPairTreeMapData: [],
-    surplusLineData: [],
-    solverBubbleData: [],
-    partialFilledData: [],
+    solverDashboard: {
+        stats: [],
+        tokenPairList: [],
+        surplusTrend: {
+            tokenPair: null,
+            data: []
+        },
+        // tokenPairBubble: {
+        //     metric: "volume",
+        //     data: [],
+        // },
+        orderDistribution: {},
+        swapHistory: {
+            tokenPair: "All",
+            data: [],
+        }
+    }
 }
 
 export const StoreContext = createContext(initialState);

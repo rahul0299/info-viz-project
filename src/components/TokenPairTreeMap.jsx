@@ -4,28 +4,60 @@ import {
     Tooltip
 } from "recharts";
 import DonutChart from "./DonutChart.jsx";
+import {Button, ButtonGroup} from "@mui/material";
+import {useDashboardActions} from "../store/actions/use-dashboard-actions.jsx";
 
-const TokenPairTreemap = ({ data }) => {
-    return data.length > 0
-        ?
-        <ResponsiveContainer width="100%" height={400}>
-            <Treemap
-                data={data}
-                dataKey="value"
-                nameKey="tokenPair"
-                stroke="#fff"
-                fill="#8884d8"
-                aspectRatio={4 / 3}
-                isAnimationActive={false}
-                content={<CustomTreemapContent />}
-            >
-                <Tooltip content={<CustomTooltip />} />
-            </Treemap>
-        </ResponsiveContainer>
-        :
-        <>No data available.</>
+const TokenPairTreemap = ({ data, metric="volume" }) => {
+    const dashboardActions = useDashboardActions();
 
-    ;
+    return <div style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "start",
+        height: "100%",
+        width: "100%"
+    }}>
+        <div style={{ display: "flex", justifyContent: "end" }}>
+            <ButtonGroup size="small">
+                <Button
+                    variant={metric === "volume" ? "contained" : "outlined"}
+                    sx={{ fontSize: "10px"}}
+                    onClick={() => dashboardActions.setTreeMapMetric("volume")}
+                >
+                    Volume
+                </Button>
+                <Button
+                    variant={metric === "count" ? "contained" : "outlined"}
+                    sx={{ fontSize: "10px"}}
+                    onClick={() => dashboardActions.setTreeMapMetric("count")}
+                >
+                    Count
+                </Button>
+            </ButtonGroup>
+        </div>
+        <div style={{ display: "flex", flexGrow: 1, justifyContent: "center", alignItems: "center" }}>
+            {
+                data.length > 0
+                    ?
+                    <ResponsiveContainer width="100%" height={400}>
+                        <Treemap
+                            data={data}
+                            dataKey="value"
+                            nameKey="tokenPair"
+                            stroke="#fff"
+                            fill="#8884d8"
+                            aspectRatio={4 / 3}
+                            isAnimationActive={false}
+                            content={<CustomTreemapContent />}
+                        >
+                            <Tooltip content={<CustomTooltip />} />
+                        </Treemap>
+                    </ResponsiveContainer>
+                    :
+                    <p>No data available.</p>
+            }
+        </div>
+    </div>
 };
 
 const CustomTooltip = ({ active, payload }) => {

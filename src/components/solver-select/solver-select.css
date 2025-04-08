@@ -1,0 +1,9 @@
+.solver-select-label {
+    font-weight: bold;
+    min-width: 150px;
+}
+
+.solver-select-address {
+    font-style: italic;
+    color: darkgray;
+}

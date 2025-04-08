@@ -5,10 +5,10 @@ import {
 const SolverParticipationChart = ({ data }) => {
   return data.length > 0
       ?
-      <ResponsiveContainer width="100%" height={400}>
+      <ResponsiveContainer width="100%" height="100%">
           <BarChart
               data={data}
-              margin={{ top: 20, right: 30, left: 30, bottom: 80 }}
+              margin={{ top: 0, right: 0, left: 0, bottom: 30 }}
           >
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis

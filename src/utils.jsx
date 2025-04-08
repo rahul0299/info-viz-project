@@ -1,57 +1,155 @@
-import {format, isAfter, parseISO, subDays, subHours} from "date-fns";
+import tokenPairTreeMap from "./components/TokenPairTreeMap.jsx";
 
+const apiUrl = import.meta.env.VITE_API_URL;
 
+console.log(apiUrl);
 
-export const fetchData = async () => {
+export const formatNumber = value => {
+    if (value === null || value === undefined || isNaN(value)) return "—";
+
+    const absValue = Math.abs(value);
+
+    if (absValue >= 1_000_000_000) {
+        return (value / 1_000_000_000).toFixed(2) + "B";
+    } else if (absValue >= 1_000_000) {
+        return (value / 1_000_000).toFixed(2) + "M";
+    } else if (absValue >= 1_000) {
+        return (value / 1_000).toFixed(2) + "k";
+    } else {
+        return value.toString();
+    }
+}
+
+export const formatTitle = title => {
+    return title.replace("_", " ")
+}
+
+export const formatDate = date => {
+    return date.toLocaleString("en-GB", {
+        day: "2-digit",
+        month: "short",
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false
+    });
+
+}
+
+export const getUniqueTokens = tokens => {
+    const tokenNameSet = new Set();
+    return tokens.filter(token => {
+        const unique = !tokenNameSet.has(token.name);
+        if (unique) {
+            tokenNameSet.add(token.name);
+        }
+        return unique;
+    })
+}
+
+export const fetchData = async (state) => {
+    const { interval, range_days, selectedSolver } = state;
+
     console.log("Fetching data ...");
-    return {
-        volumeTrendData: await fetchVolumeTrendData(),
-        orderSolverDelayData: await fetchOrderSolverDelayData(),
-        solverParticipationData: await fetchSolverParticipationData(),
-        tokenPairTreeMapData: await fetchTokenPairTreeMapData(),
-        surplusLineData: await fetchSurplusLineData(),
-        solverBubbleData: await fetchSolverBubbleData(),
-        partialFilledData: await fetchPartialFilledData(),
-    };
+
+    console.log(selectedSolver);
+
+    // fetch global stats
+    if (selectedSolver === "solver-global") {
+        const treeMapMetric = state.dashboard.tokenPairTreeMap.metric;
+
+        return {
+            solverList: await fetchSolverList(),
+            dashboard: {
+                volumeTrend: await fetchVolumeTrend(interval, range_days),
+                solverParticipation: await fetchSolverParticipation(range_days),
+                stats: await fetchOverviewStats(range_days),
+                tokenPairTreeMap: {
+                    metric: treeMapMetric,
+                    data: await fetchTokenPairTreeMap(treeMapMetric, range_days),
+                },
+                orderSolverTimeDiff: await fetchOrderSolverTimeDiff(range_days),
+            }
+        };
+    } else {
+        const surplusTokenPair = state.solverDashboard?.surplusTrend?.tokenPair ?? null;
+        const swapHistoryTokenPair = state.solverDashboard?.swapHistory?.tokenPair ?? "All";
+
+        return {
+            solverList: await fetchSolverList(),
+            solverDashboard: {
+                stats: await fetchOverviewStats(range_days, selectedSolver),
+                tokenPairList: await fetchTokenPairList(range_days, selectedSolver),
+                surplusTrend: {
+                    tokenPair: surplusTokenPair,
+                    data: await fetchSurplusTrend(range_days, selectedSolver, surplusTokenPair),
+                },
+                orderDistribution: await fetchOrderDistribution(range_days, selectedSolver),
+                swapHistory: {
+                    tokenPair: swapHistoryTokenPair,
+                    data: await fetchSwapHistory(range_days, selectedSolver, swapHistoryTokenPair),
+                }
+            }
+        };
+    }
+
+
 }
 
-export const fetchVolumeTrendData = async () => {
-    const [res24h, res7d] = await Promise.all([
-        fetch("/out/volume_trend_24h.json").then(res => res.json()),
-        fetch("/out/volume_trend_7d.json").then(res => res.json())
-    ]);
+const fetchSolverList = async () => {
+    return await fetch(apiUrl + "/solvers", {}).then(res => res.json());
+}
 
-    // Simulate 1 second delay
-    await new Promise(resolve => setTimeout(resolve, 1000));
+const fetchVolumeTrend = async (interval, range_days) => {
+    return await fetch(`${apiUrl}/volumn_trend?interval=${interval}&range_days=${range_days}`, {}).then(res => res.json());
+}
 
-    return {
-        "24h": res24h,
-        "7d": res7d
-    };
+const fetchSolverParticipation = async (range_days) => {
+    return await fetch(`${apiUrl}/solver-participation?range_days=${range_days}`, {}).then(res => res.json());
+}
+
+const fetchTokenPairTreeMap = async (metric, range_days) => {
+    return []
+}
+
+const fetchOrderSolverTimeDiff = async (range_days) => {
+    return await fetch(`${apiUrl}/order-solved-time-diff-bins?range_days=${range_days}`, {}).then(res => res.json());
+}
+
+
+const fetchOverviewStats = async (range_days, solver="") => {
+    return await fetch(`${apiUrl}/overview_stats?range_days=${range_days}&solver=${solver}`, {}).then(res => res.json());
+}
+
+const fetchTokenPairList = async (range_days, solver) => {
+    return await fetch(`${apiUrl}/token-pair-list?range_days=${range_days}&solver=${solver}`, {}).then(res => res.json());
+}
+
+const fetchSurplusTrend = async (range_days, solver, tokenPair) => {
+    if (solver === "solver-global" || !tokenPair) {
+        return []
+    }
+
+    const url = `${apiUrl}/surplus-trend?range_days=${range_days}&solver=${solver}&buyToken=${tokenPair.buyToken.address}&sellToken=${tokenPair.sellToken.address}`
+
+    return await fetch(url).then(res => res.json());
 
 }
 
-export const fetchOrderSolverDelayData = async () => {
-    return await fetch("/out/order_solver_time_diff.json").then(res => res.json());
+const fetchOrderDistribution = async (range_days, solver) => {
+    return await fetch(`${apiUrl}/order-distribution-by?range_days=${range_days}`, {}).then(res => res.json());
 }
 
-export const fetchSolverParticipationData = async () => {
-    return await fetch("/out/solver_participation.json").then(res => res.json());
-}
+const fetchSwapHistory = async (range_days, solver, tokenPair) => {
+    if (solver === "solver-global") {
+        return []
+    }
 
-export const fetchTokenPairTreeMapData = async () => {
-    return await fetch("/out/treemap_token_pair_volume.json").then(res => res.json());
-}
+    if (tokenPair === "All") {
+        return await fetch(`${apiUrl}/latest-txns?range_days=${range_days}&solverAddress=${solver}`).then(res => res.json())
+    }
 
-export const fetchSurplusLineData = async () => {
-    return await fetch("/out/surplus_trend_5760fc_Wrapped Ether_USD Coin_7d.json").then(res => res.json());
-}
+    const url = `${apiUrl}/latest-txns?range_days=${range_days}&solverAddress=${solver}&buyToken=${tokenPair.buyToken.address}&sellToken=${tokenPair.sellToken.address}`
 
-export const fetchSolverBubbleData = async () => {
-    return await fetch("/out/bubble_solver_volume_5760fc.json").then(res => res.json());
-}
+    return await fetch(url).then(res => res.json());
 
-export const fetchPartialFilledData = async () => {
-    return await fetch("/out/partially_fillable_5760fc.json").then(res => res.json());
 }
-

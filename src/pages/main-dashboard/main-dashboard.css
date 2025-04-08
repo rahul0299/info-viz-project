@@ -1,0 +1,46 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto 1fr 1fr;
+    gap: 10px;
+    min-height: calc(100vh - 100px);
+    padding: 10px;
+}
+
+.dashboard-viz {
+    min-height: 300px;
+}
+
+/* Top Stat Cards */
+.stats {
+    grid-row: 1;
+    grid-column: span 3;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Middle Two Charts */
+.volume-trend {
+    grid-row: 2;
+    grid-column: span 6;
+}
+
+.solver-time {
+    grid-row: 2;
+    grid-column: span 6;
+}
+
+/* Bottom Two Charts */
+.participants {
+    grid-row: 3;
+    grid-column: span 6;
+}
+
+.box.treemap {
+    grid-row: 3;
+    grid-column: span 6;
+    padding: 10px;
+}
