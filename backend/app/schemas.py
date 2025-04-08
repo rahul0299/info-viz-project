@@ -32,7 +32,7 @@ class TokenPair(BaseModel):
 
 class TokenPairStat(BaseModel):
     tokenPair: TokenPair
-    value: float  # could represent count or volume depending on `type`
+    value: float
     binCounts: Dict[str, float]
 
 class SolverParticipation(BaseModel):

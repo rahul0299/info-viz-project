@@ -70,8 +70,8 @@ _cache_token_pair_stats: Dict[Tuple[int, Optional[str], str], Tuple[float, list]
 @router.get("/token-pair-stats", response_model=List[TokenPairStat])
 async def token_pair_stats(
     range_days: int = Query(1, le=14),
-    solver: Optional[str] = None,
     type: str = Query("count", regex="^(count|volume)$"),
+    solver: Optional[str] = None,
     db: AsyncSession = Depends(get_db),
 ):
     key = (range_days, solver, type)
@@ -123,13 +123,33 @@ async def leaderboard(
     return await crud.get_leaderboard(db, range_days)
 
 
+# Cache
+_cache_order_distribution_by: Dict[
+    Tuple[int, Optional[str], str], Tuple[float, list]
+] = {}
+
+
 @router.get("/order-distribution-by")
 async def order_distribution_by(
     range_days: int = Query(1, le=14),
     type: str = Query("kind", regex="^(partiallyFillable|kind)$"),
+    solver: Optional[str] = None,
     db: AsyncSession = Depends(get_db),
 ):
-    return await crud.get_order_distribution_by(db, range_days, type)
+    key = (range_days, type, solver)
+    now = time.time()
+
+    # Serve from cache if within TTL
+    if key in _cache_order_distribution_by:
+        cached_time, cached_result = _cache_order_distribution_by[key]
+        if now - cached_time < CACHE_TTL_SECONDS:
+            print("CACHED")
+            return cached_result
+        
+    print("NON CACHED")
+    output = await crud.get_order_distribution_by(db, range_days, type, solver)
+    _cache_order_distribution_by[key] = (now, output)
+    return output
 
 
 @router.get("/latest-txns", response_model=List[TransactionInfo])

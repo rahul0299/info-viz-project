@@ -10,7 +10,7 @@ async def get_all_solvers(db):
     return result.scalars().all()
 
 
-async def get_volumn_trend(db, interval: int, range_days: int, solver: str = None):
+async def get_volumn_trend(db, interval: int, range_days: int, c = None):
     end_time = datetime.utcnow()
     start_time = end_time - timedelta(days=range_days)
 
@@ -73,6 +73,7 @@ def get_token_data(token_address: str, others: bool = False):
         return {
             "address": "others",
             "name": "Others",
+            "symbol": "UKN",
             "image_url": "https://cdn-icons-png.flaticon.com/512/0/14.png",
         }
     else:
@@ -306,20 +307,27 @@ async def get_leaderboard(db, range_days: int):
     return output
 
 
-async def get_order_distribution_by(db, range_days: int, type: str):
+async def get_order_distribution_by(db, range_days: int, type: str, solver: str = None):
+    # Prepare optional solver filter clause
+    solver_filter = 'AND t."solverAddress" = :solver' if solver else ""
+
+    # SQL query with necessary joins
     query = f"""
-        SELECT "{type}", COUNT(*)
-        FROM "order"
-        WHERE "createdTimestamp" >= NOW() - INTERVAL '{range_days} days'
-        GROUP BY "{type}"
+        SELECT o."{type}", COUNT(*)
+        FROM "order" o
+        JOIN transaction_orders_map tom ON o.id = tom."orderId"
+        JOIN transaction t ON tom."txnHash" = t."txnHash"
+        WHERE o."createdTimestamp" >= NOW() - INTERVAL '{range_days} days'
+        {solver_filter}
+        GROUP BY o."{type}"
     """
-    result = await db.execute(text(query))
+
+    params = {"solver": solver} if solver else {}
+    result = await db.execute(text(query), params)
     rows = result.fetchall()
 
     bin_counts = {str(row[0]): row[1] for row in rows}
-
     return {"binCounts": bin_counts}
-
 
 async def get_latest_txns(
     db,
