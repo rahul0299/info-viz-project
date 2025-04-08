@@ -1,0 +1,19 @@
+.leaderboard-container {
+    border-radius: 5px;
+    flex-grow: 1;
+    height: calc(100vh - 140px);
+    margin: 20px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leaderboard-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}

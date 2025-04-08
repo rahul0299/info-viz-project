@@ -1,8 +1,4 @@
-import tokenPairTreeMap from "./components/TokenPairTreeMap.jsx";
-
 const apiUrl = import.meta.env.VITE_API_URL;
-
-console.log(apiUrl);
 
 export const formatNumber = value => {
     if (value === null || value === undefined || isNaN(value)) return "—";
@@ -49,10 +45,6 @@ export const getUniqueTokens = tokens => {
 export const fetchData = async (state) => {
     const { interval, range_days, selectedSolver } = state;
 
-    console.log("Fetching data ...");
-
-    console.log(selectedSolver);
-
     // fetch global stats
     if (selectedSolver === "solver-global") {
         const treeMapMetric = state.dashboard.tokenPairTreeMap.metric;
@@ -70,6 +62,14 @@ export const fetchData = async (state) => {
                 orderSolverTimeDiff: await fetchOrderSolverTimeDiff(range_days),
             }
         };
+    } else if (selectedSolver === "solver-leaderboard") {
+        return {
+            solverList: await fetchSolverList(),
+            leaderboard: {
+                data: await fetchLeaderboard(range_days),
+            }
+        }
+
     } else {
         const surplusTokenPair = state.solverDashboard?.surplusTrend?.tokenPair ?? null;
         const swapHistoryTokenPair = state.solverDashboard?.swapHistory?.tokenPair ?? "All";
@@ -91,8 +91,6 @@ export const fetchData = async (state) => {
             }
         };
     }
-
-
 }
 
 const fetchSolverList = async () => {
@@ -152,4 +150,8 @@ const fetchSwapHistory = async (range_days, solver, tokenPair) => {
 
     return await fetch(url).then(res => res.json());
 
+}
+
+const fetchLeaderboard = async (range_days) => {
+    return await fetch(`${apiUrl}/leaderboard?range_days=${range_days}`).then(res => res.json());
 }

@@ -17,7 +17,6 @@ const SolverBubbleChart = ({ data, width, height }) => {
         // Create React root once
         if (!tooltipRootRef.current && tooltipDivRef.current) {
             tooltipRootRef.current = ReactDOM.createRoot(tooltipDivRef.current);
-            console.log("tooltip root created");
         }
 
         const root = d3

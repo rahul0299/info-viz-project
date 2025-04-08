@@ -9,8 +9,6 @@ import SwapHistorySolverViz from "../../components/SwapHistorySolverViz.jsx";
 const SolverDashboard = () => {
     const { state } = useStore();
 
-    console.log(state);
-
     return (
         <div className="solver-dashboard">
             <div className="solver-page-header">

@@ -1,10 +1,11 @@
 import {useStore} from "../store/use-store.jsx";
-import {Box, Button, ButtonGroup, FormControl, InputLabel, MenuItem, Select, Typography} from "@mui/material";
+import {Button, ButtonGroup, Typography} from "@mui/material";
 import {useGlobalActions} from "../store/actions/use-global-actions.jsx";
 import MainDashboard from "./main-dashboard/MainDashboard.jsx";
 import "./layout.css"
 import SolverSelect from "../components/solver-select/SolverSelect.jsx";
 import SolverDashboard from "./solver-dashboard/SolverDashboard.jsx";
+import LeaderboardPage from "./leaderboard/LeaderboardPage.jsx";
 
 
 const timeRanges = [
@@ -18,10 +19,18 @@ const intervals = [
     "4hr"
 ]
 
+const getPage = (page) => {
+    if (page === "solver-global") {
+        return <MainDashboard />;
+    } else if (page === "solver-leaderboard") {
+        return <LeaderboardPage />
+    }
+
+    return <SolverDashboard />
+}
+
 const Layout = () => {
     const {state} = useStore();
-
-    console.log(state);
 
     const actions = useGlobalActions();
 
@@ -64,7 +73,7 @@ const Layout = () => {
         </div>
 
         {
-            state.selectedSolver === "solver-global" ? <MainDashboard/> : <SolverDashboard />
+            getPage(state.selectedSolver)
         }
 
     </div>

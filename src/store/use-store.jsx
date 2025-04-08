@@ -31,6 +31,9 @@ export const initialState = {
             tokenPair: "All",
             data: [],
         }
+    },
+    leaderboard: {
+        data: []
     }
 }
 

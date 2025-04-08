@@ -29,6 +29,7 @@ const SolverSelect = () => {
             }}
         >
             <MenuItem key="solver-global" value="solver-global">Global</MenuItem>
+            <MenuItem key="solver-leaderboard" value="solver-leaderboard">Leaderboard</MenuItem>
             {state.solverList.map(({ address, labelName }) => (
                 <MenuItem key={`solver-${address}`} value={address}>
                         <Typography fontWeight="bold" className="solver-select-label">{labelName}</Typography>

@@ -5,19 +5,15 @@ import {
     CartesianGrid,
     XAxis,
     YAxis,
-    Tooltip, Treemap
+    Tooltip,
 } from "recharts";
 import {formatDate} from "../utils.jsx";
 import {useSolverActions} from "../store/actions/use-solver-actions.jsx";
-import {useStore} from "../store/use-store.jsx";
 import SolverDashboardTokenPairSelect from "./solver-dashboard-token-pair-select/SolverDashboardTokenPairSelect.jsx";
 
 const SurplusTrendChart = ({ data, tokenPairs, selectedTokenPair }) => {
 
     const { setSurplusTokenPair } = useSolverActions()
-    const { state: { solverDashboard: { surplusTrend } }} = useStore();
-
-    console.log(surplusTrend)
 
     data = data.map(d => ({ ...d, timestamp: new Date(d.timestamp) }))
 
