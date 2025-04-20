@@ -6,6 +6,7 @@ import {Typography} from "@mui/material";
 import "./main-dashboard.css";
 import TokenPairTreemap from "../../components/TokenPairTreeMap.jsx";
 import OrderSolverDelayChart from "../../components/OrderSolverDelayChart.jsx";
+import TokenPairTreeMapGradient from "../../components/TokenPairTreeMapGradient.jsx";
 
 
 const MainDashboard = () => {
@@ -26,7 +27,8 @@ const MainDashboard = () => {
         <div className="box dashboard-viz volume-trend"><VolumeTrendChart data={state.dashboard?.volumeTrend || []} /></div>
         <div className="box dashboard-viz solver-time"><OrderSolverDelayChart data={state.dashboard?.orderSolverTimeDiff.binCounts || []} /></div>
         <div className="box dashboard-viz participants"><SolverParticipationChart data={state.dashboard?.solverParticipation || []}/></div>
-        <div className="box dashboard-viz treemap"><TokenPairTreemap data={state.dashboard?.tokenPairTreeMap.data || []} metric={state.dashboard?.tokenPairTreeMap.metric} /></div>
+        {/*<div className="box dashboard-viz treemap"><TokenPairTreemap data={state.dashboard?.tokenPairTreeMap.data || []} metric={state.dashboard?.tokenPairTreeMap.metric} /></div>*/}
+        <div className="box dashboard-viz treemap"><TokenPairTreeMapGradient data={state.dashboard?.tokenPairTreeMap.data || []} metric={state.dashboard?.tokenPairTreeMap.metric} /></div>
     </div>
 }
 
