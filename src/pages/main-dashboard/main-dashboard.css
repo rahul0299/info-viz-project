@@ -9,6 +9,9 @@
 
 .dashboard-viz {
     min-height: 300px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Top Stat Cards */
@@ -31,6 +34,7 @@
 .solver-time {
     grid-row: 2;
     grid-column: span 6;
+
 }
 
 /* Bottom Two Charts */

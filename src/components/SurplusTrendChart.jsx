@@ -25,7 +25,8 @@ const SurplusTrendChart = ({ data, tokenPairs, selectedTokenPair }) => {
         height: "100%",
         width: "100%"
     }}>
-        <div style={{ display: "flex", flexDirection:"row", justifyContent: "center", alignItems: "baseline", width: "100%"}}>
+        <div style={{ display: "flex", flexDirection:"row", justifyContent: "start", gap: "50px", alignItems: "center", width: "100%"}}>
+            <h3 style={{ margin: 0, flexGrow: 1 }}>Surplus Trend</h3>
             <SolverDashboardTokenPairSelect tokenPairs={tokenPairs} action={setSurplusTokenPair} selectedPair={selectedTokenPair} />
         </div>
 

@@ -3,7 +3,7 @@ import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
 
 const SolverDashboardTokenPairSelect = ({ action, tokenPairs, selectedPair, defaultOption = null}) => {
 
-    return <FormControl sx={{ minWidth: 120 }} fullWidth size="small">
+    return <FormControl sx={{ minWidth: "200px" }}  size="small">
         <InputLabel id="buy-token-label">Token Pair</InputLabel>
         <Select
             variant="outlined"

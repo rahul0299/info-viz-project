@@ -15,11 +15,13 @@ const SwapHistoryWrapper = ({data, tokenPairs=[], selectedTokenPair}) => {
         <div style={{
             display: "flex",
             flexDirection:"row",
-            justifyContent: "center",
+            justifyContent: "start",
             alignItems: "baseline",
             maxWidth: "500px",
-            backgroundColor: "white"
+            backgroundColor: "white",
+            gap: "50px",
         }}>
+            <h3 style={{ margin: "10px" }}> Swap History Table</h3>
             <SolverDashboardTokenPairSelect tokenPairs={tokenPairs} action={setSwapHistoryTokenPair} selectedPair={selectedTokenPair} defaultOption="All" />
         </div>
 

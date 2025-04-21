@@ -23,17 +23,18 @@ const SolverBubbleWrapper = ({ data, metric }) => {
     }}>
         <div style={{ display: "flex", flexDirection:"row", justifyContent: "center", alignItems: "baseline", width: "100%"}}>
             <div style={{ display: "flex", justifyContent: "end", width: "100%" }}>
+                <h3 style={{ flexGrow: 1, margin: "10px" }}>Token Pair Distribution</h3>
                 <ButtonGroup size="small">
                     <Button
                         variant={metric === "volume" ? "contained" : "outlined"}
-                        sx={{ fontSize: "10px"}}
+                        sx={{ fontSize: "10px", height: "fit-content" }}
                         onClick={() => setTokenPairBubbleMetric("volume")}
                     >
                         Volume
                     </Button>
                     <Button
                         variant={metric === "count" ? "contained" : "outlined"}
-                        sx={{ fontSize: "10px"}}
+                        sx={{ fontSize: "10px", height: "fit-content"}}
                         onClick={() => setTokenPairBubbleMetric("count")}
                     >
                         Count

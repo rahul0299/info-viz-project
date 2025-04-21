@@ -16,15 +16,19 @@ const OrderSolverDelayChart = ({ data, scale = "linear" }) => {
 
     return data.length > 0
         ?
-        <ResponsiveContainer width="100%" height="100%">
-            <BarChart data={data}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="bin" fontFamily="Roboto" fontSize={12} />
-                <YAxis scale={scale} domain={["auto", "auto"]} />
-                <Tooltip />
-                <Bar dataKey="count" fill="#82ca9d"  isAnimationActive={true}/>
-            </BarChart>
-        </ResponsiveContainer>
+        <>
+            <h3>Order Solver Time Difference (secs)</h3>
+
+            <ResponsiveContainer width="100%" height="100%">
+                <BarChart data={data}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="bin" fontFamily="Roboto" fontSize={12} />
+                    <YAxis scale={scale} domain={["auto", "auto"]} />
+                    <Tooltip />
+                    <Bar dataKey="count" fill="#82ca9d"  isAnimationActive={true}/>
+                </BarChart>
+            </ResponsiveContainer>
+        </>
         :
         <>No data available.</>
     ;

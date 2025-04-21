@@ -35,18 +35,19 @@ const TokenPairTreeMapGradient = ({ data, metric = "volume" }) => {
                 gap: 10,
             }}
         >
-            <div style={{ display: "flex", justifyContent: "end" }}>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <h3 style={{ flexGrow: 1, textAlign: "center", margin: "5px" }}>Token-Pair TreeMap</h3>
                 <ButtonGroup size="small">
                     <Button
                         variant={metric === "volume" ? "contained" : "outlined"}
-                        sx={{ fontSize: "10px" }}
+                        sx={{ fontSize: "10px", height: "fit-content" }}
                         onClick={() => dashboardActions.setTreeMapMetric("volume")}
                     >
                         Volume
                     </Button>
                     <Button
                         variant={metric === "count" ? "contained" : "outlined"}
-                        sx={{ fontSize: "10px" }}
+                        sx={{ fontSize: "10px", height: "fit-content" }}
                         onClick={() => dashboardActions.setTreeMapMetric("count")}
                     >
                         Count
