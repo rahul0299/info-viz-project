@@ -549,6 +549,9 @@ async def get_order_solved_time_diff_bins(
         "180s+": (180, float("inf")),
     }
 
+    if range_days > 1:
+        bins.pop("180s+")
+
     bin_counts = defaultdict(int)
 
     BLOCK_TIME = 15
