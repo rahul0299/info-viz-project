@@ -12,7 +12,7 @@ app.include_router(stats.router)
 # Allow requests from localhost:5173 (your frontend dev server)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", "http://e1327899-cs5346-project.s3-website-ap-southeast-1.amazonaws.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
