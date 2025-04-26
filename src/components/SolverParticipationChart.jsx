@@ -31,7 +31,7 @@ const SolverParticipationChart = ({ data }) => {
               <BarChart
                   data={sortedData}
                   layout="vertical"
-                  margin={{ top: 0, right: 30, left: 0, bottom: 12 }}
+                  margin={{ top: 0, right: 30, left: 10, bottom: 12 }}
               >
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis
@@ -45,8 +45,9 @@ const SolverParticipationChart = ({ data }) => {
                       width={100}
                       interval={0}
                       tick={{ fontSize: 10 }}
+                      label={{ value: "Solvers", angle: -90, position: "insideLeft", offset: 0 }}
                   />
-                  <Tooltip />
+                  <Tooltip content={<CustomTooltip />} />
                   <Bar dataKey="participation_pct" fill="#8884d8" isAnimationActive={true} />
               </BarChart>
           </ResponsiveContainer>
@@ -57,3 +58,19 @@ const SolverParticipationChart = ({ data }) => {
 };
 
 export default SolverParticipationChart;
+
+
+const CustomTooltip = ({ active, payload }) => {
+    if (active && payload && payload.length) {
+        const { name, participation_pct } = payload[0].payload;
+        const color = payload[0].color;
+
+        return (
+            <div style={{ background: "#fff", border: "1px solid #ccc", padding: 8, fontSize: 16 }}>
+                <span>{name}: </span>
+                <span style={{ color, fontWeight: 600 }}>{participation_pct.toFixed(2)}%</span>
+            </div>
+        );
+    }
+    return null;
+};

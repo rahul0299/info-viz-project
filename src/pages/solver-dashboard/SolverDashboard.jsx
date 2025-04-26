@@ -15,11 +15,11 @@ const SolverDashboard = () => {
             <div className="solver-page-header">
                 {
                     Object.entries(state.solverDashboard.stats)
-                        .filter(entry => entry[1] !== null)
+                        .filter(entry => entry[1] !== null && entry[0] !== "total_solvers")
                         .map(([k, v]) => (
                             <div className="box metric-box" key={k}>
                                 <Typography fontSize="small" color="textSecondary" textTransform="capitalize">{formatTitle(k)}</Typography>
-                                <Typography variant="h5" color="textPrimary" textTransform="capitalize">{formatNumber(v)}</Typography>
+                                <Typography variant="h5" color="textPrimary" textTransform="capitalize">{`${k === "total_volume" ? "$" : ""}`}{formatNumber(v)}</Typography>
                             </div>
                         ))
                 }

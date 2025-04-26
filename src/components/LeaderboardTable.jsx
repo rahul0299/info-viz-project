@@ -95,10 +95,10 @@ const LeaderboardTable = ({ data }) => {
                                 {row.total_auctions}
                             </TableCell>
                             <TableCell>
-                                {formatNumber(row.total_volume)}
+                                ${formatNumber(row.total_volume)}
                             </TableCell>
                             <TableCell>
-                                {formatNumber(row.avg_volume)}
+                                ${formatNumber(row.avg_volume)}
                             </TableCell>
                             <TableCell>
                                 {row.avg_ranking}

@@ -18,22 +18,24 @@ const VolumeTrendChart = ({ data }) => {
 
         <>
             <h3>Volume Trend</h3>
-            <ResponsiveContainer width="100%" height="100%">
-                <LineChart data={data} >
+            <ResponsiveContainer width="100%" height="100%" >
+                <LineChart data={data} margin={{left: 20, bottom: 10}}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis
                         dataKey="timestamp"
                         tick={{ fontSize: 12 }}
                         tickFormatter={formatDate}
+                        label={{ value: "Time", position: "insideBottom", offset: -5 }}
                     />
 
                     <YAxis
                         tickFormatter={formatNumber}
                         tick={{ fontSize: 14 }}
+                        label={{ value: "Volume (USD)", angle: -90, position: "insideLeft", offset: -10 }}
                     />
 
                     <Tooltip
-                        formatter={value => formatNumber(value)}
+                        formatter={value => `$${formatNumber(value)}`}
                         labelFormatter={label => formatDate(label)}
                     />
                     <Line

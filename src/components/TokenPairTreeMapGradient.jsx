@@ -3,6 +3,8 @@ import DonutChart from "./DonutChart.jsx";
 import { Button, ButtonGroup } from "@mui/material";
 import { useDashboardActions } from "../store/actions/use-dashboard-actions.jsx";
 import { scaleSequentialLog, interpolateGreens } from "d3";
+import {useEffect, useRef} from "react";
+import {formatNumber} from "../utils.jsx";
 
 const TokenPairTreeMapGradient = ({ data, metric = "volume" }) => {
     const dashboardActions = useDashboardActions();
@@ -35,24 +37,33 @@ const TokenPairTreeMapGradient = ({ data, metric = "volume" }) => {
                 gap: 10,
             }}
         >
-            <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <h3 style={{ flexGrow: 1, textAlign: "center", margin: "5px" }}>Token-Pair TreeMap</h3>
-                <ButtonGroup size="small">
-                    <Button
-                        variant={metric === "volume" ? "contained" : "outlined"}
-                        sx={{ fontSize: "10px", height: "fit-content" }}
-                        onClick={() => dashboardActions.setTreeMapMetric("volume")}
-                    >
-                        Volume
-                    </Button>
-                    <Button
-                        variant={metric === "count" ? "contained" : "outlined"}
-                        sx={{ fontSize: "10px", height: "fit-content" }}
-                        onClick={() => dashboardActions.setTreeMapMetric("count")}
-                    >
-                        Count
-                    </Button>
-                </ButtonGroup>
+            <div style={{ display: "flex", justifyContent: "space-between", gap: "20px" }}>
+                {
+                    data.length > 0 && (
+                        <>
+                            <h3 style={{ flexGrow: 1, textAlign: "center", margin: "5px" }}>Token-Pair TreeMap</h3>
+                            <GradientLegend min={minValue} max={maxValue} />
+
+                            <ButtonGroup size="small">
+                                <Button
+                                    variant={metric === "volume" ? "contained" : "outlined"}
+                                    sx={{ fontSize: "10px", height: "fit-content" }}
+                                    onClick={() => dashboardActions.setTreeMapMetric("volume")}
+                                >
+                                    Volume
+                                </Button>
+                                <Button
+                                    variant={metric === "count" ? "contained" : "outlined"}
+                                    sx={{ fontSize: "10px", height: "fit-content" }}
+                                    onClick={() => dashboardActions.setTreeMapMetric("count")}
+                                >
+                                    Count
+                                </Button>
+                            </ButtonGroup>
+                        </>
+                    )
+                }
+
             </div>
 
             <div style={{ display: "flex", flexGrow: 1, justifyContent: "center", alignItems: "center" }}>
@@ -122,3 +133,34 @@ const CustomTreemapContent = ({ x, y, width, height, tokenPairLabel, getColor, v
 };
 
 export default TokenPairTreeMapGradient;
+
+
+const GradientLegend = ({ min, max, width = 200, height = 20 }) => {
+    const canvasRef = useRef();
+
+    useEffect(() => {
+        const ctx = canvasRef.current.getContext("2d");
+        const gradient = ctx.createLinearGradient(0, 0, width, 0);
+
+        // Draw smooth gradient using interpolator
+        const steps = 100;
+        for (let i = 0; i <= steps; i++) {
+            const t = i / steps;
+            const scale = scaleSequentialLog(interpolateGreens).domain([0, 1]);
+            gradient.addColorStop(t, interpolateGreens(t));
+        }
+
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, width, height);
+    }, [width, height]);
+
+    return (
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 4 }}>
+            <canvas ref={canvasRef} width={width} height={height} style={{ borderRadius: 4, border: "1px solid #ccc" }}  />
+            <div style={{ display: "flex", justifyContent: "space-between", width }}>
+                <span style={{ fontSize: "12px" }}>{formatNumber(min)}</span>
+                <span style={{ fontSize: "12px" }}>{formatNumber(max)}</span>
+            </div>
+        </div>
+    );
+};

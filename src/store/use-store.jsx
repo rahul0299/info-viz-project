@@ -1,8 +1,8 @@
 import {createContext, useContext} from "react";
 
 export const initialState = {
-    interval: "4hr",
-    range_days: 7,
+    interval: "1hr",
+    range_days: 1,
     solverList: [],
     selectedSolver: "solver-global",
     dashboard: {

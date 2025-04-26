@@ -19,7 +19,7 @@ const MainDashboard = () => {
                 .map(([k, v]) => (
                     <div className="box stats" key={k}>
                         <Typography fontSize="small" color="textSecondary" textTransform="capitalize">{formatTitle(k)}</Typography>
-                        <Typography variant="h5" color="textPrimary" textTransform="capitalize">{formatNumber(v)}</Typography>
+                        <Typography variant="h5" color="textPrimary" textTransform="capitalize">{`${k === "total_volume" ? "$" : ""}`}{formatNumber(v)}</Typography>
                     </div>
                 ))
         }
