@@ -49,7 +49,7 @@ async def get_overview_stats(db, range_days: int, solver: str = None):
             SUM("txnCount") AS total_txns,
             COUNT(DISTINCT "solverAddress") AS total_solvers,
             SUM("totalVolume") AS total_volume
-            {', SUM(rankings) / NULLIF(SUM("ordersCount"), 0) AS avg_ranking' if solver else ''}
+            {', SUM(rankings) / NULLIF(COUNT("rankings"), 0) AS avg_ranking' if solver else ''}
         FROM real_time_stats
         WHERE "timestamp" >= NOW() - INTERVAL '{range_days} days'
         {f'AND "solverAddress" = :solver' if solver else ''}
@@ -297,8 +297,8 @@ async def get_leaderboard(db, range_days: int):
                 },
                 "total_orders": int(total_orders or 0),
                 "total_auctions": int(total_auctions or 0),
-                "total_volume": float(total_volume or 0),
-                "avg_volume": float(avg_volume or 0),
+                "total_volume": round(float(total_volume or 0), 2),
+                "avg_volume": round(float(avg_volume or 0), 2),
                 "avg_ranking": (
                     round(float(avg_ranking), 2) if avg_ranking is not None else None
                 ),
@@ -448,6 +448,8 @@ async def get_latest_txns(
     for txnHash, pool_list in txn_to_pools.items():
         if txnHash in txn_map:
             txn_map[txnHash]["pools"] = list(set(pool_list))
+        else:
+            txn_map[txnHash]["pools"] = list()
 
     # 5. Format and return response
     GAS_PRICE = 0.738805624
