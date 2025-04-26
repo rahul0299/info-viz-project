@@ -9,7 +9,7 @@ import time
 router = APIRouter()
 
 # caching 5mins
-CACHE_TTL_SECONDS = 300
+CACHE_TTL_SECONDS = 30 * 60
 
 
 @router.get("/solvers", response_model=List[SolverLabel])
