@@ -9,7 +9,7 @@ import time
 router = APIRouter()
 
 # caching 5mins
-CACHE_TTL_SECONDS = 30 * 60
+CACHE_TTL_SECONDS = 60 * 60
 
 
 @router.get("/solvers", response_model=List[SolverLabel])
@@ -145,7 +145,7 @@ async def order_distribution_by(
         if now - cached_time < CACHE_TTL_SECONDS:
             print("CACHED")
             return cached_result
-        
+
     print("NON CACHED")
     output = await crud.get_order_distribution_by(db, range_days, type, solver)
     _cache_order_distribution_by[key] = (now, output)
