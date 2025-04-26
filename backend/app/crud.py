@@ -49,7 +49,7 @@ async def get_overview_stats(db, range_days: int, solver: str = None):
             SUM("txnCount") AS total_txns,
             COUNT(DISTINCT "solverAddress") AS total_solvers,
             SUM("totalVolume") AS total_volume
-            {', SUM(rankings) / NULLIF(COUNT("rankings"), 0) AS avg_ranking' if solver else ''}
+            {', SUM(rankings) / NULLIF(SUM("participationCount"), 0) AS avg_ranking' if solver else ''}
         FROM real_time_stats
         WHERE "timestamp" >= NOW() - INTERVAL '{range_days} days'
         {f'AND "solverAddress" = :solver' if solver else ''}
@@ -268,7 +268,7 @@ async def get_leaderboard(db, range_days: int):
             COUNT(DISTINCT "timestamp") AS total_auctions,
             SUM("totalVolume") AS total_volume,
             SUM("totalVolume") / NULLIF(SUM("ordersCount"), 0) AS avg_volume,
-            SUM("rankings")::float / NULLIF(SUM("ordersCount"), 0) AS avg_ranking
+            SUM("rankings")::float / NULLIF(SUM("participationCount"), 0) AS avg_ranking
         FROM real_time_stats
         WHERE "timestamp" >= NOW() - INTERVAL '{range_days} days'
         GROUP BY "solverAddress"
@@ -359,6 +359,7 @@ async def get_latest_txns(
             "txnFeeInETH": float(row[2] or 0),
             "txnFeeInUSD": float(row[3] or 0),
             "swaps": [],
+            "pools": [],
         }
         for row in txns
     }
@@ -448,8 +449,6 @@ async def get_latest_txns(
     for txnHash, pool_list in txn_to_pools.items():
         if txnHash in txn_map:
             txn_map[txnHash]["pools"] = list(set(pool_list))
-        else:
-            txn_map[txnHash]["pools"] = list()
 
     # 5. Format and return response
     GAS_PRICE = 0.738805624
@@ -468,7 +467,7 @@ async def get_latest_txns(
             "txnFeeInUSD": round(v["txnFeeInUSD"], 2),
             "timestamp": v["timestamp"],
             "swaps": v["swaps"],
-            "liquidity_platform": v["pools"],
+            "liquidity_platform": v["pools"] if v["pools"] else [],
         }
         for v in txn_map.values()
         if v["swaps"]
