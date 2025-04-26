@@ -49,7 +49,7 @@ async def get_overview_stats(db, range_days: int, solver: str = None):
             SUM("txnCount") AS total_txns,
             COUNT(DISTINCT "solverAddress") AS total_solvers,
             SUM("totalVolume") AS total_volume
-            {', SUM(rankings) / NULLIF(SUM("participationCount"), 0) AS avg_ranking' if solver else ''}
+            {', SUM("rankings")::float / NULLIF(SUM("participationCount"), 0) AS avg_ranking' if solver else ''}
         FROM real_time_stats
         WHERE "timestamp" >= NOW() - INTERVAL '{range_days} days'
         {f'AND "solverAddress" = :solver' if solver else ''}
